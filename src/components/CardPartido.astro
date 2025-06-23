@@ -1,0 +1,36 @@
+---
+interface Time {
+    sigla: string;
+    logo: string;
+}
+interface Props {
+    estadio: string;
+    timeCasa: Time;
+    timeFora: Time;
+    placarCasa: number | null;
+    placarFora: number | null;
+    info: string;
+    campeonato?: string; // Opcional
+}
+const { estadio, timeCasa, timeFora, placarCasa, placarFora, info } = Astro.props;
+// Nenhuma lógica complexa de logos é necessária aqui!
+---
+<div class="border-b border-gray-700 py-6 px-4">
+    <p class="text-center text-xs font-semibold tracking-wider text-gray-400 mb-4">{estadio}</p>
+    <div class="flex items-center justify-between">
+        <div class="flex items-center gap-4 w-1/3">
+            <span class="text-lg font-bold">{timeCasa.sigla}</span>
+            <img src={timeCasa.logo} alt={`Logo do ${timeCasa.sigla}`} class="w-8 h-8" />
+        </div>
+        <div class="text-center w-1/3">
+            <span class="text-3xl font-bold">{placarCasa !== null ? placarCasa : '—'}</span>
+            <span class="text-2xl font-light text-gray-500 mx-2">×</span>
+            <span class="text-3xl font-bold">{placarFora !== null ? placarFora : '—'}</span>
+        </div>
+        <div class="flex items-center gap-4 w-1/3 justify-end">
+            <img src={timeFora.logo} alt={`Logo do ${timeFora.sigla}`} class="w-8 h-8" />
+            <span class="text-lg font-bold">{timeFora.sigla}</span>
+        </div>
+    </div>
+    <p class="text-center text-sm font-medium text-gray-400 mt-4">{info}</p>
+</div>

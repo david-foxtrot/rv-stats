@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import TablaPosiciones from '../../components/TablaPosiciones.astro';
+import equipos from '../../data/tabela-serie-b.json';
+---
+<Layout title="Tabela do Brasileirão Série B">
+    <main class="container mx-auto p-4 max-w-4xl">
+        <TablaPosiciones title="Brasileirão Série B" equipos={equipos} />
+    </main>
+</Layout>

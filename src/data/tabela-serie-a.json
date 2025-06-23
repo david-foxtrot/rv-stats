@@ -1,0 +1,6 @@
+[
+    { "pos": 1, "time": "Flamengo", "slug": "flamengo", "logo": "/logos/flamengo.svg", "pts": 24, "v": 7, "e": 3, "d": 1, "gp": 19, "gc": 9, "sg": 10 },
+    { "pos": 2, "time": "Palmeiras", "slug": "palmeiras", "logo": "/logos/palmeiras.svg", "pts": 23, "v": 7, "e": 2, "d": 2, "gp": 15, "gc": 6, "sg": 9 },
+    { "pos": 3, "time": "Bahia", "slug": "bahia", "logo": "/logos/bahia.svg", "pts": 21, "v": 6, "e": 3, "d": 2, "gp": 18, "gc": 12, "sg": 6 },
+    { "pos": 4, "time": "Botafogo", "slug": "botafogo", "logo": "/logos/botafogo.svg", "pts": 20, "v": 6, "e": 2, "d": 3, "gp": 18, "gc": 11, "sg": 7 }
+]

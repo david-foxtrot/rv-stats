@@ -1,0 +1,53 @@
+---
+// A interface agora é mais simples. Não precisa do slug aqui se não vamos usá-lo.
+interface Equipo {
+    pos: number;
+    time: string;
+    logo: string; // <-- A ruta já vem correta do JSON, ex: "/logos/flamengo.svg"
+    pts: number; v: number; e: number; d: number; gp: number; gc: number; sg: number;
+    slug: string;
+}
+interface Props {
+    title: string;
+    equipos: Equipo[];
+}
+const { title, equipos } = Astro.props;
+
+// NENHUMA LÓGICA COMPLEXA DE LOGOS É NECESSÁRIA AQUI!
+// O componente agora é "bobo", apenas mostra os dados que recebe.
+---
+<div class="bg-gray-800/50 rounded-lg p-4">
+    <h2 class="text-2xl font-bold text-center mb-6 text-emerald-400">{title}</h2>
+    <div class="overflow-x-auto">
+        <table class="w-full text-sm text-left">
+            <thead class="text-xs text-gray-400 uppercase border-b border-gray-600">
+                <tr>
+                    <th scope="col" class="pl-2 pr-4 py-3" colspan="2">Clube</th>
+                    <th scope="col" class="px-2 py-3 text-center">Pts</th>
+                    <th scope="col" class="px-2 py-3 text-center">V</th>
+                    <th scope="col" class="px-2 py-3 text-center">E</th>
+                    <th scope="col" class="px-2 py-3 text-center">D</th>
+                    <th scope="col" class="px-2 py-3 text-center">SG</th>
+                </tr>
+            </thead>
+            <tbody>
+                {equipos.map((equipo) => (
+                    <tr class="border-b border-gray-700">
+                        <td class="pr-2 py-4 text-center font-medium">{equipo.pos}</td>
+                        <th scope="row" class="pl-2 pr-4 py-4 font-medium text-gray-100 whitespace-nowrap">
+                            <a href={`/onde-assistir/${equipo.slug}`} class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                                <img src={equipo.logo} alt={`Logo do ${equipo.time}`} class="w-6 h-6" />
+                                {equipo.time}
+                            </a>
+                        </th>
+                        <td class="px-2 py-4 text-center font-bold">{equipo.pts}</td>
+                        <td class="px-2 py-4 text-center">{equipo.v}</td>
+                        <td class="px-2 py-4 text-center">{equipo.e}</td>
+                        <td class="px-2 py-4 text-center">{equipo.d}</td>
+                        <td class="px-2 py-4 text-center">{equipo.sg}</td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    </div>
+</div>

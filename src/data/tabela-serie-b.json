@@ -1,0 +1,6 @@
+[
+    { "pos": 1, "time": "América-MG", "slug": "america-mg", "logo": "/logos/america_mg.svg", "pts": 21, "v": 6, "e": 3, "d": 2, "gp": 16, "gc": 11, "sg": 5 },
+    { "pos": 2, "time": "Avaí", "slug": "avai", "logo": "/logos/avai.svg", "pts": 21, "v": 6, "e": 3, "d": 2, "gp": 11, "gc": 7, "sg": 4 },
+    { "pos": 3, "time": "Operário-PR", "slug": "operario-pr", "logo": "/logos/operario_pr.svg", "pts": 21, "v": 6, "e": 3, "d": 2, "gp": 9, "gc": 5, "sg": 4 },
+    { "pos": 4, "time": "Vila Nova", "slug": "vila-nova", "logo": "/logos/vilanova.svg", "pts": 20, "v": 6, "e": 2, "d": 3, "gp": 15, "gc": 10, "sg": 5 }
+]

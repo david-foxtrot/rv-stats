@@ -1,0 +1,53 @@
+# .github/workflows/update_data.yml
+
+# Nome do nosso workflow. Aparecerá na aba "Actions" do GitHub.
+name: Atualização Automática de Dados
+
+on:
+  # Permite que a gente rode este workflow manualmente a partir do GitHub
+  workflow_dispatch:
+
+  schedule:
+    # Roda o workflow a cada hora. (No minuto 0 de cada hora)
+    - cron: '0 * * * *'
+
+jobs:
+  # O nome do nosso "trabalho"
+  update-data:
+    # Usamos um servidor virtual com a última versão do Ubuntu
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Baixa o código do nosso repositório para o servidor virtual
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      # 2. Configura o Python na versão 3.10
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 3. Instala as dependências do Chrome necessárias para o Selenium rodar no Linux
+      - name: Instalar dependências do Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      # 4. Instala as nossas librerias de Python a partir do requirements.txt
+      - name: Instalar dependências do Python
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      # 5. Executa o nosso script scraper!
+      - name: Rodar o Scraper
+        run: python ./scripts/scraper.py
+      
+      # 6. Faz o commit e push automático se houver mudanças nos arquivos JSON
+      # Esta "Action" pronta faz todo o trabalho sujo por nós.
+      - name: Commit e Push dos arquivos de dados
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(data): Atualização automática dos dados dos jogos'
+          file_pattern: 'src/data/*.json' # Apenas faz o commit se os arquivos .json mudarem

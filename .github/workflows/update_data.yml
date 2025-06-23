@@ -17,6 +17,12 @@ jobs:
     # Usamos um servidor virtual com a última versão do Ubuntu
     runs-on: ubuntu-latest
 
+    # --- AQUI ESTÁ A CORREÇÃO ---
+    # Adicionamos este bloco para dar permissão de escrita ao nosso robô.
+    # Especificamente, permissão para escrever no "conteúdo" do repositório.
+    permissions:
+      contents: write
+
     steps:
       # 1. Baixa o código do nosso repositório para o servidor virtual
       - name: Checkout do código

@@ -2,60 +2,6 @@
     {
         "id": 1,
         "campeonato": "Brasileirão Série B",
-        "estadio": "Estádio da Ressacada",
-        "timeCasa": {
-            "sigla": "AVA",
-            "logo": "/logos/avai.svg",
-            "estadio": "Estádio da Ressacada"
-        },
-        "timeFora": {
-            "sigla": "CAP",
-            "logo": "/logos/atletico_pr.svg",
-            "estadio": "Ligga Arena"
-        },
-        "placarCasa": 1,
-        "placarFora": 2,
-        "info": "Ended"
-    },
-    {
-        "id": 2,
-        "campeonato": "Brasileirão Série B",
-        "estadio": "Baenão",
-        "timeCasa": {
-            "sigla": "REM",
-            "logo": "/logos/remo.svg",
-            "estadio": "Baenão"
-        },
-        "timeFora": {
-            "sigla": "PAY",
-            "logo": "/logos/paysandu_sc.svg",
-            "estadio": "Curuzu"
-        },
-        "placarCasa": 0,
-        "placarFora": 1,
-        "info": "Ended"
-    },
-    {
-        "id": 3,
-        "campeonato": "Brasileirão Série B",
-        "estadio": "Arena da Fonte Luminosa",
-        "timeCasa": {
-            "sigla": "FER",
-            "logo": "/logos/ferroviaria.svg",
-            "estadio": "Arena da Fonte Luminosa"
-        },
-        "timeFora": {
-            "sigla": "CRB",
-            "logo": "/logos/crb.svg",
-            "estadio": "Estádio Rei Pelé"
-        },
-        "placarCasa": 1,
-        "placarFora": 0,
-        "info": "Ended"
-    },
-    {
-        "id": 4,
-        "campeonato": "Brasileirão Série B",
         "estadio": "Antônio Accioly",
         "timeCasa": {
             "sigla": "ATL-GO",
@@ -72,7 +18,7 @@
         "info": "Ended"
     },
     {
-        "id": 5,
+        "id": 2,
         "campeonato": "Brasileirão Série B",
         "estadio": "Couto Pereira",
         "timeCasa": {
@@ -90,7 +36,7 @@
         "info": "Ended"
     },
     {
-        "id": 6,
+        "id": 3,
         "campeonato": "Brasileirão Série B",
         "estadio": "Arena da Amazônia",
         "timeCasa": {

@@ -1,0 +1,23 @@
+---
+// Este componente recebe os dados de um único partido como 'props'
+const { partido } = Astro.props
+---
+<div class="flex items-center justify-between p-3 border-t border-gray-700 text-sm">
+  <div class="flex items-center gap-2 w-2/5 justify-end">
+    <span class="font-semibold text-right">{partido.timeCasa.sigla}</span>
+    <img src={partido.timeCasa.logo} alt={`Logo do ${partido.timeCasa.sigla}`} class="w-5 h-5" />
+  </div>
+
+  <div class="text-center w-1/5 font-mono text-gray-300">
+    {partido.placarCasa !== null ? (
+      <span class="font-bold text-lg text-white">{partido.placarCasa} x {partido.placarFora}</span>
+    ) : (
+      <span>{partido.info}</span>
+    )}
+  </div>
+  
+  <div class="flex items-center gap-2 w-2/5">
+    <img src={partido.timeFora.logo} alt={`Logo do ${partido.timeFora.sigla}`} class="w-5 h-5" />
+    <span class="font-semibold">{partido.timeFora.sigla}</span>
+  </div>
+</div>

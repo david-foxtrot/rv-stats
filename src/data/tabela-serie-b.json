@@ -17,10 +17,10 @@
         "time": "Novorizontino",
         "slug": "novorizontino",
         "logo": "/logos/novorizontino.svg",
-        "pts": 26,
+        "pts": 25,
         "v": 7,
-        "e": 5,
-        "d": 1,
+        "e": 4,
+        "d": 2,
         "gp": 0,
         "gc": 0,
         "sg": 0
@@ -131,6 +131,19 @@
     },
     {
         "pos": 12,
+        "time": "Operário-PR",
+        "slug": "operário-pr",
+        "logo": "/logos/operario_pr.svg",
+        "pts": 17,
+        "v": 5,
+        "e": 2,
+        "d": 6,
+        "gp": 0,
+        "gc": 0,
+        "sg": 0
+    },
+    {
+        "pos": 13,
         "time": "América Mineiro",
         "slug": "america-mineiro",
         "logo": "/logos/america_mg.svg",
@@ -143,7 +156,7 @@
         "sg": 0
     },
     {
-        "pos": 13,
+        "pos": 14,
         "time": "Vila Nova FC",
         "slug": "vila-nova-fc",
         "logo": "/logos/vila_nova.svg",
@@ -156,7 +169,7 @@
         "sg": 0
     },
     {
-        "pos": 14,
+        "pos": 15,
         "time": "Criciúma",
         "slug": "criciúma",
         "logo": "/logos/criciuma.svg",
@@ -164,19 +177,6 @@
         "v": 4,
         "e": 4,
         "d": 5,
-        "gp": 0,
-        "gc": 0,
-        "sg": 0
-    },
-    {
-        "pos": 15,
-        "time": "Operário-PR",
-        "slug": "operário-pr",
-        "logo": "/logos/operario_pr.svg",
-        "pts": 15,
-        "v": 4,
-        "e": 3,
-        "d": 6,
         "gp": 0,
         "gc": 0,
         "sg": 0

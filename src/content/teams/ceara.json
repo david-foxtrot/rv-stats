@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 2001,
+        "time": "Ceará",
+        "sigla": "CEA",
+        "display_name": "Ceará",
+        "slug": "ceara",
+        "logo": "/logos/ceara.svg",
+        "estadio": "Castelão",
+        "league_slug": "serie-a"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Copa do Nordeste, Knockout stage",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1959,
+                "time": "Sport Recife",
+                "sigla": "SPO",
+                "display_name": "Sport Recife",
+                "slug": "sport-recife",
+                "logo": "/logos/sport.svg",
+                "estadio": "Ilha do Retiro"
+            },
+            "timeFora": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "09/07 21:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2020,
+                "time": "Fortaleza",
+                "sigla": "FOR",
+                "display_name": "Fortaleza",
+                "slug": "fortaleza",
+                "logo": "/logos/fortaleza.svg",
+                "estadio": "Castelão"
+            },
+            "timeFora": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "13/07 20:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "timeFora": {
+                "id": 1957,
+                "time": "Corinthians",
+                "sigla": "COR",
+                "display_name": "Corinthians",
+                "slug": "corinthians",
+                "logo": "/logos/corinthians.svg",
+                "estadio": "Neo Química Arena"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "16/07 19:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "timeFora": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "20/07 11:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "timeFora": {
+                "id": 21982,
+                "time": "Mirassol",
+                "sigla": "MIR",
+                "display_name": "Mirassol",
+                "slug": "mirassol",
+                "logo": "/logos/mirassol.svg",
+                "estadio": "José Maria de Campos Maia"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "23/07 19:00"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Cearense, Série A",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2020,
+                "time": "Fortaleza",
+                "sigla": "FOR",
+                "display_name": "Fortaleza",
+                "slug": "fortaleza",
+                "logo": "/logos/fortaleza.svg",
+                "estadio": "Castelão"
+            },
+            "timeFora": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": 1,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Copa do Nordeste, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "Postponed"
+        },
+        {
+            "campeonato": "Cearense, Serie A, Playoffs",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2020,
+                "time": "Fortaleza",
+                "sigla": "FOR",
+                "display_name": "Fortaleza",
+                "slug": "fortaleza",
+                "logo": "/logos/fortaleza.svg",
+                "estadio": "Castelão"
+            },
+            "timeFora": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": 0,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Cearense, Serie A, Playoffs",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "timeFora": {
+                "id": 2020,
+                "time": "Fortaleza",
+                "sigla": "FOR",
+                "display_name": "Fortaleza",
+                "slug": "fortaleza",
+                "logo": "/logos/fortaleza.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Copa do Nordeste, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": 3,
+            "placarFora": 2,
+            "info": "Ended"
+        }
+    ]
+}

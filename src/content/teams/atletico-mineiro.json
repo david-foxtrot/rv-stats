@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 1977,
+        "time": "Atlético Mineiro",
+        "sigla": "CAM",
+        "display_name": "Atlético Mineiro",
+        "slug": "atletico-mineiro",
+        "logo": "/logos/atletico_mg.svg",
+        "estadio": "Arena MRV",
+        "league_slug": "serie-a"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "12/07 21:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "timeFora": {
+                "id": 1959,
+                "time": "Sport Recife",
+                "sigla": "SPO",
+                "display_name": "Sport Recife",
+                "slug": "sport-recife",
+                "logo": "/logos/sport.svg",
+                "estadio": "Ilha do Retiro"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "16/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1963,
+                "time": "Palmeiras",
+                "sigla": "PAL",
+                "display_name": "Palmeiras",
+                "slug": "palmeiras",
+                "logo": "/logos/palmeiras.svg",
+                "estadio": "Allianz Parque"
+            },
+            "timeFora": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "20/07 17:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "timeFora": {
+                "id": 2020,
+                "time": "Fortaleza",
+                "sigla": "FOR",
+                "display_name": "Fortaleza",
+                "slug": "fortaleza",
+                "logo": "/logos/fortaleza.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "23/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 5981,
+                "time": "Flamengo",
+                "sigla": "FLA",
+                "display_name": "Flamengo",
+                "slug": "flamengo",
+                "logo": "/logos/flamengo.svg",
+                "estadio": "Maracanã"
+            },
+            "timeFora": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "27/07 20:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Mineiro Módulo I ",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "timeFora": {
+                "id": 342775,
+                "time": "Athletic Club",
+                "sigla": "ATH",
+                "display_name": "Athletic Club",
+                "slug": "athletic-club",
+                "logo": "/logos/athletic_club_mg.svg",
+                "estadio": "Arena Unimed"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Mineiro Módulo I ",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1954,
+                "time": "Cruzeiro",
+                "sigla": "CRU",
+                "display_name": "Cruzeiro",
+                "slug": "cruzeiro",
+                "logo": "/logos/cruzeiro.svg",
+                "estadio": "Mineirão"
+            },
+            "timeFora": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "placarCasa": 0,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Mineiro Módulo I - Playoffs",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "timeFora": {
+                "id": 1973,
+                "time": "América Mineiro",
+                "sigla": "AMG",
+                "display_name": "América-MG",
+                "slug": "america-mineiro",
+                "logo": "/logos/america_mg.svg",
+                "estadio": "Independência"
+            },
+            "placarCasa": 4,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Mineiro Módulo I - Playoffs",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1973,
+                "time": "América Mineiro",
+                "sigla": "AMG",
+                "display_name": "América-MG",
+                "slug": "america-mineiro",
+                "logo": "/logos/america_mg.svg",
+                "estadio": "Independência"
+            },
+            "timeFora": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 5926,
+                "time": "Grêmio",
+                "sigla": "GRE",
+                "display_name": "Grêmio",
+                "slug": "gremio",
+                "logo": "/logos/gremio.svg",
+                "estadio": "Arena do Grêmio"
+            },
+            "timeFora": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "placarCasa": 2,
+            "placarFora": 1,
+            "info": "Ended"
+        }
+    ]
+}

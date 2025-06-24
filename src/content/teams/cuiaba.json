@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 49202,
+        "time": "Cuiabá",
+        "sigla": "CUI",
+        "display_name": "Cuiabá",
+        "slug": "cuiaba",
+        "logo": "/logos/cuiaba.svg",
+        "estadio": "Arena Pantanal",
+        "league_slug": "serie-b"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "timeFora": {
+                "id": 1979,
+                "time": "Botafogo-SP",
+                "sigla": "BOT-SP",
+                "display_name": "Botafogo-SP",
+                "slug": "botafogo-sp",
+                "logo": "/logos/botafogo_sp.svg",
+                "estadio": "Santa Cruz"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "30/06 21:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "timeFora": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "05/07 16:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "timeFora": {
+                "id": 336664,
+                "time": "Amazonas FC",
+                "sigla": "AMA",
+                "display_name": "Amazonas FC",
+                "slug": "amazonas-fc",
+                "logo": "/logos/amazonas.svg",
+                "estadio": "Arena da Amazônia"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "12/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1960,
+                "time": "Goiás",
+                "sigla": "GOI",
+                "display_name": "Goiás",
+                "slug": "goias",
+                "logo": "/logos/goias.svg",
+                "estadio": "Serrinha"
+            },
+            "timeFora": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "19/07 16:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "timeFora": {
+                "id": 1973,
+                "time": "América Mineiro",
+                "sigla": "AMG",
+                "display_name": "América-MG",
+                "slug": "america-mineiro",
+                "logo": "/logos/america_mg.svg",
+                "estadio": "Independência"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "23/07 21:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1980,
+                "time": "Juventude",
+                "sigla": "JUV",
+                "display_name": "Juventude",
+                "slug": "juventude",
+                "logo": "/logos/juventude.svg",
+                "estadio": "Alfredo Jaconi"
+            },
+            "timeFora": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "timeFora": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "placarCasa": 1,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1961,
+                "time": "Fluminense",
+                "sigla": "FLU",
+                "display_name": "Fluminense",
+                "slug": "fluminense",
+                "logo": "/logos/fluminense.svg",
+                "estadio": "Maracanã"
+            },
+            "timeFora": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "timeFora": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "placarCasa": 1,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6982,
+                "time": "Volta Redonda",
+                "sigla": "VOL",
+                "display_name": "Volta Redonda",
+                "slug": "volta-redonda",
+                "logo": "/logos/volta_redonda.svg",
+                "estadio": "Raulino de Oliveira"
+            },
+            "timeFora": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "placarCasa": 0,
+            "placarFora": 1,
+            "info": "Ended"
+        }
+    ]
+}

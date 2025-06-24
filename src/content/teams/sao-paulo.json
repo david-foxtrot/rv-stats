@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 1981,
+        "time": "São Paulo",
+        "sigla": "SAO",
+        "display_name": "São Paulo",
+        "slug": "sao-paulo",
+        "logo": "/logos/sao_paulo.svg",
+        "estadio": "Morumbi",
+        "league_slug": "serie-a"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 5981,
+                "time": "Flamengo",
+                "sigla": "FLA",
+                "display_name": "Flamengo",
+                "slug": "flamengo",
+                "logo": "/logos/flamengo.svg",
+                "estadio": "Maracanã"
+            },
+            "timeFora": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "13/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1999,
+                "time": "Red Bull Bragantino",
+                "sigla": "BGT",
+                "display_name": "RB Bragantino",
+                "slug": "red-bull-bragantino",
+                "logo": "/logos/rb_bragantino.svg",
+                "estadio": "Nabi Abi Chedid"
+            },
+            "timeFora": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "16/07 20:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "timeFora": {
+                "id": 1957,
+                "time": "Corinthians",
+                "sigla": "COR",
+                "display_name": "Corinthians",
+                "slug": "corinthians",
+                "logo": "/logos/corinthians.svg",
+                "estadio": "Neo Química Arena"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "19/07 21:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1980,
+                "time": "Juventude",
+                "sigla": "JUV",
+                "display_name": "Juventude",
+                "slug": "juventude",
+                "logo": "/logos/juventude.svg",
+                "estadio": "Alfredo Jaconi"
+            },
+            "timeFora": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "24/07 19:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "timeFora": {
+                "id": 1961,
+                "time": "Fluminense",
+                "sigla": "FLU",
+                "display_name": "Fluminense",
+                "slug": "fluminense",
+                "logo": "/logos/fluminense.svg",
+                "estadio": "Maracanã"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "27/07 16:00"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Paulista Série A1",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "timeFora": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "placarCasa": 3,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Paulista Série A1",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "timeFora": {
+                "id": 21982,
+                "time": "Mirassol",
+                "sigla": "MIR",
+                "display_name": "Mirassol",
+                "slug": "mirassol",
+                "logo": "/logos/mirassol.svg",
+                "estadio": "José Maria de Campos Maia"
+            },
+            "placarCasa": 4,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Paulista Série A1",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1999,
+                "time": "Red Bull Bragantino",
+                "sigla": "BGT",
+                "display_name": "RB Bragantino",
+                "slug": "red-bull-bragantino",
+                "logo": "/logos/rb_bragantino.svg",
+                "estadio": "Nabi Abi Chedid"
+            },
+            "timeFora": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Paulista Série A1",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1963,
+                "time": "Palmeiras",
+                "sigla": "PAL",
+                "display_name": "Palmeiras",
+                "slug": "palmeiras",
+                "logo": "/logos/palmeiras.svg",
+                "estadio": "Allianz Parque"
+            },
+            "timeFora": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "placarCasa": 0,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Paulista Série A1 - Playoffs",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "timeFora": {
+                "id": 135514,
+                "time": "Novorizontino",
+                "sigla": "NOV",
+                "display_name": "Novorizontino",
+                "slug": "novorizontino",
+                "logo": "/logos/novorizontino.svg",
+                "estadio": "Dr. Jorge Ismael de Biasi"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        }
+    ]
+}

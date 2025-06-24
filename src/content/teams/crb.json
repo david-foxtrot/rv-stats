@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 22032,
+        "time": "CRB",
+        "sigla": "CRB",
+        "display_name": "CRB",
+        "slug": "crb",
+        "logo": "/logos/crb.svg",
+        "estadio": "Estádio Rei Pelé",
+        "league_slug": "serie-b"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "timeFora": {
+                "id": 1973,
+                "time": "América Mineiro",
+                "sigla": "AMG",
+                "display_name": "América-MG",
+                "slug": "america-mineiro",
+                "logo": "/logos/america_mg.svg",
+                "estadio": "Independência"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "26/06 21:35"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 7314,
+                "time": "Atlético Goianiense",
+                "sigla": "ATL-GO",
+                "display_name": "Atlético-GO",
+                "slug": "atletico-goianiense",
+                "logo": "/logos/atletico_go.svg",
+                "estadio": "Antônio Accioly"
+            },
+            "timeFora": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "03/07 21:35"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "timeFora": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "12/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 39634,
+                "time": "Operário-PR",
+                "sigla": "OPE",
+                "display_name": "Operário-PR",
+                "slug": "operario-pr",
+                "logo": "/logos/operario_pr.svg",
+                "estadio": "Germano Krüger"
+            },
+            "timeFora": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "19/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2021,
+                "time": "Vila Nova FC",
+                "sigla": "VIL",
+                "display_name": "Vila Nova",
+                "slug": "vila-nova-fc",
+                "logo": "/logos/vila_nova.svg",
+                "estadio": "Onésio Brasileiro Alvarenga"
+            },
+            "timeFora": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "22/07 21:35"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Copa do Nordeste, Group A",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1959,
+                "time": "Sport Recife",
+                "sigla": "SPO",
+                "display_name": "Sport Recife",
+                "slug": "sport-recife",
+                "logo": "/logos/sport.svg",
+                "estadio": "Ilha do Retiro"
+            },
+            "timeFora": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "placarCasa": 2,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Copa do Nordeste, Group A",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2020,
+                "time": "Fortaleza",
+                "sigla": "FOR",
+                "display_name": "Fortaleza",
+                "slug": "fortaleza",
+                "logo": "/logos/fortaleza.svg",
+                "estadio": "Castelão"
+            },
+            "timeFora": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "Postponed"
+        },
+        {
+            "campeonato": "Copa do Nordeste, Group A",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2020,
+                "time": "Fortaleza",
+                "sigla": "FOR",
+                "display_name": "Fortaleza",
+                "slug": "fortaleza",
+                "logo": "/logos/fortaleza.svg",
+                "estadio": "Castelão"
+            },
+            "timeFora": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "placarCasa": 0,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "timeFora": {
+                "id": 21845,
+                "time": "Chapecoense",
+                "sigla": "CHA",
+                "display_name": "Chapecoense",
+                "slug": "chapecoense",
+                "logo": "/logos/chapecoense.svg",
+                "estadio": "Arena Condá"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 342775,
+                "time": "Athletic Club",
+                "sigla": "ATH",
+                "display_name": "Athletic Club",
+                "slug": "athletic-club",
+                "logo": "/logos/athletic_club_mg.svg",
+                "estadio": "Arena Unimed"
+            },
+            "timeFora": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "placarCasa": 1,
+            "placarFora": 2,
+            "info": "Ended"
+        }
+    ]
+}

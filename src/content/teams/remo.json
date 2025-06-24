@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 2012,
+        "time": "Remo",
+        "sigla": "REM",
+        "display_name": "Remo",
+        "slug": "remo",
+        "logo": "/logos/remo.svg",
+        "estadio": "Baenão",
+        "league_slug": "serie-b"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 342775,
+                "time": "Athletic Club",
+                "sigla": "ATH",
+                "display_name": "Athletic Club",
+                "slug": "athletic-club",
+                "logo": "/logos/athletic_club_mg.svg",
+                "estadio": "Arena Unimed"
+            },
+            "timeFora": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "29/06 16:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "timeFora": {
+                "id": 49202,
+                "time": "Cuiabá",
+                "sigla": "CUI",
+                "display_name": "Cuiabá",
+                "slug": "cuiaba",
+                "logo": "/logos/cuiaba.svg",
+                "estadio": "Arena Pantanal"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "05/07 16:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 21845,
+                "time": "Chapecoense",
+                "sigla": "CHA",
+                "display_name": "Chapecoense",
+                "slug": "chapecoense",
+                "logo": "/logos/chapecoense.svg",
+                "estadio": "Arena Condá"
+            },
+            "timeFora": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "13/07 18:30"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "timeFora": {
+                "id": 135514,
+                "time": "Novorizontino",
+                "sigla": "NOV",
+                "display_name": "Novorizontino",
+                "slug": "novorizontino",
+                "logo": "/logos/novorizontino.svg",
+                "estadio": "Dr. Jorge Ismael de Biasi"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "19/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "timeFora": {
+                "id": 7315,
+                "time": "Avaí",
+                "sigla": "AVA",
+                "display_name": "Avaí",
+                "slug": "avai",
+                "logo": "/logos/avai.svg",
+                "estadio": "Estádio da Ressacada"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "22/07 15:00"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Paraense, Serie A",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "timeFora": {
+                "id": 1997,
+                "time": "Paysandu SC",
+                "sigla": "PAY",
+                "display_name": "Paysandu SC",
+                "slug": "paysandu-sc",
+                "logo": "/logos/paysandu_sc.svg",
+                "estadio": "Curuzu"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Copa Betano do Brasil",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "timeFora": {
+                "id": 1984,
+                "time": "Criciúma",
+                "sigla": "CRI",
+                "display_name": "Criciúma",
+                "slug": "criciuma",
+                "logo": "/logos/criciuma.svg",
+                "estadio": "Heriberto Hülse"
+            },
+            "placarCasa": 1,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 35285,
+                "time": "Ferroviária",
+                "sigla": "FER",
+                "display_name": "Ferroviária",
+                "slug": "ferroviaria",
+                "logo": "/logos/ferroviaria.svg",
+                "estadio": "Arena da Fonte Luminosa"
+            },
+            "timeFora": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "timeFora": {
+                "id": 1973,
+                "time": "América Mineiro",
+                "sigla": "AMG",
+                "display_name": "América-MG",
+                "slug": "america-mineiro",
+                "logo": "/logos/america_mg.svg",
+                "estadio": "Independência"
+            },
+            "placarCasa": 2,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1979,
+                "time": "Botafogo-SP",
+                "sigla": "BOT-SP",
+                "display_name": "Botafogo-SP",
+                "slug": "botafogo-sp",
+                "logo": "/logos/botafogo_sp.svg",
+                "estadio": "Santa Cruz"
+            },
+            "timeFora": {
+                "id": 2012,
+                "time": "Remo",
+                "sigla": "REM",
+                "display_name": "Remo",
+                "slug": "remo",
+                "logo": "/logos/remo.svg",
+                "estadio": "Baenão"
+            },
+            "placarCasa": 2,
+            "placarFora": 2,
+            "info": "Ended"
+        }
+    ]
+}

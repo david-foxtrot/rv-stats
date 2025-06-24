@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 1982,
+        "time": "Coritiba",
+        "sigla": "CFC",
+        "display_name": "Coritiba",
+        "slug": "coritiba",
+        "logo": "/logos/coritiba.svg",
+        "estadio": "Couto Pereira",
+        "league_slug": "serie-b"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1970,
+                "time": "Athletico",
+                "sigla": "CAP",
+                "display_name": "Athletico",
+                "slug": "athletico-pr",
+                "logo": "/logos/atletico_pr.svg",
+                "estadio": "Ligga Arena"
+            },
+            "timeFora": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "28/06 18:30"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "timeFora": {
+                "id": 6982,
+                "time": "Volta Redonda",
+                "sigla": "VOL",
+                "display_name": "Volta Redonda",
+                "slug": "volta-redonda",
+                "logo": "/logos/volta_redonda.svg",
+                "estadio": "Raulino de Oliveira"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "04/07 19:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 22032,
+                "time": "CRB",
+                "sigla": "CRB",
+                "display_name": "CRB",
+                "slug": "crb",
+                "logo": "/logos/crb.svg",
+                "estadio": "Estádio Rei Pelé"
+            },
+            "timeFora": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "12/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "timeFora": {
+                "id": 1997,
+                "time": "Paysandu SC",
+                "sigla": "PAY",
+                "display_name": "Paysandu SC",
+                "slug": "paysandu-sc",
+                "logo": "/logos/paysandu_sc.svg",
+                "estadio": "Curuzu"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "19/07 18:30"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 342775,
+                "time": "Athletic Club",
+                "sigla": "ATH",
+                "display_name": "Athletic Club",
+                "slug": "athletic-club",
+                "logo": "/logos/athletic_club_mg.svg",
+                "estadio": "Arena Unimed"
+            },
+            "timeFora": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "22/07 21:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "timeFora": {
+                "id": 1979,
+                "time": "Botafogo-SP",
+                "sigla": "BOT-SP",
+                "display_name": "Botafogo-SP",
+                "slug": "botafogo-sp",
+                "logo": "/logos/botafogo_sp.svg",
+                "estadio": "Santa Cruz"
+            },
+            "placarCasa": 1,
+            "placarFora": 3,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Paranaense",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "timeFora": {
+                "id": 1970,
+                "time": "Athletico",
+                "sigla": "CAP",
+                "display_name": "Athletico",
+                "slug": "athletico-pr",
+                "logo": "/logos/atletico_pr.svg",
+                "estadio": "Ligga Arena"
+            },
+            "placarCasa": 0,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Paranaense",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "timeFora": {
+                "id": 39634,
+                "time": "Operário-PR",
+                "sigla": "OPE",
+                "display_name": "Operário-PR",
+                "slug": "operario-pr",
+                "logo": "/logos/operario_pr.svg",
+                "estadio": "Germano Krüger"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Club Friendly Games",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "timeFora": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "placarCasa": 1,
+            "placarFora": 4,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1982,
+                "time": "Coritiba",
+                "sigla": "CFC",
+                "display_name": "Coritiba",
+                "slug": "coritiba",
+                "logo": "/logos/coritiba.svg",
+                "estadio": "Couto Pereira"
+            },
+            "timeFora": {
+                "id": 2021,
+                "time": "Vila Nova FC",
+                "sigla": "VIL",
+                "display_name": "Vila Nova",
+                "slug": "vila-nova-fc",
+                "logo": "/logos/vila_nova.svg",
+                "estadio": "Onésio Brasileiro Alvarenga"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        }
+    ]
+}

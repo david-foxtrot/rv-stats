@@ -2,25 +2,50 @@
 // src/layouts/Layout.astro
 import '../styles/global.css';
 import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro'; // <-- 1. Importa o Footer
+import Footer from '../components/Footer.astro';
 
+// A interface agora aceita mais propriedades opcionais para o SEO
 interface Props {
 	title: string;
+	description?: string;
+	image?: string; // URL da imagem para compartilhar
 }
-const { title } = Astro.props;
+
+// Definimos valores padrão para as páginas que não especifiquem estas propriedades
+const { 
+    title, 
+    description = 'A sua guia mais rápida para saber onde assistir futebol brasileiro ao vivo, com tabelas e jogos atualizados.',
+    image = new URL('/og-default.png', Astro.site) // Cria uma URL absoluta. Precisas de uma imagem 'og-default.png' na pasta /public
+} = Astro.props;
 ---
 <!doctype html>
 <html lang="pt-BR" class="dark">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		
+		{/* */}
 		<title>{title}</title>
+		<meta name="description" content={description} />
+
+		{/* */}
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={image.toString()} />
+        <meta property="og:url" content={Astro.url} />
+        <meta property="og:type" content="website" />
+		
+		{/* */}
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={image.toString()} />
 	</head>
 	<body class="bg-gray-900 text-gray-200 antialiased">
 		<Header />
 		<slot />
-		<Footer /> </body>
+		<Footer />
+	</body>
 </html>

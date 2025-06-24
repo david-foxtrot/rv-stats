@@ -1,3 +1,6 @@
+# Archivo: scripts/scraper.py
+# Versión: 35 (Rápido - Un solo driver con IDs de Temporada Fijos)
+
 import json
 import os
 import time
@@ -8,124 +11,142 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
-# --- TEAM_MAP DEFINITIVO (BASEADO NOS DADOS REAIS DA API) ---
-TEAM_MAP = {
-    # Série A
-    "Flamengo": {"id": 1963, "sigla": "FLA", "logo": "/logos/flamengo.svg", "estadio": "Maracanã"},
-    "Cruzeiro": {"id": 1969, "sigla": "CRU", "logo": "/logos/cruzeiro.svg", "estadio": "Mineirão"},
-    "Red Bull Bragantino": {"id": 1982, "sigla": "BGT", "logo": "/logos/rb_bragantino.svg", "estadio": "Nabi Abi Chedid"},
-    "Palmeiras": {"id": 1966, "sigla": "PAL", "logo": "/logos/palmeiras.svg", "estadio": "Allianz Parque"},
-    "Bahia": {"id": 1957, "sigla": "BAH", "logo": "/logos/bahia.svg", "estadio": "Arena Fonte Nova"},
-    "Fluminense": {"id": 1968, "sigla": "FLU", "logo": "/logos/fluminense.svg", "estadio": "Maracanã"},
-    "Atlético Mineiro": {"id": 1977, "sigla": "CAM", "logo": "/logos/atletico_mg.svg", "estadio": "Arena MRV"},
-    "Botafogo": {"id": 1958, "sigla": "BOT", "logo": "/logos/botafogo.svg", "estadio": "Nilton Santos"},
-    "Corinthians": {"id": 1979, "sigla": "COR", "logo": "/logos/corinthians.svg", "estadio": "Neo Química Arena"},
-    "Grêmio": {"id": 1954, "sigla": "GRE", "logo": "/logos/gremio.svg", "estadio": "Arena do Grêmio"},
-    "Vasco da Gama": {"id": 1981, "sigla": "VAS", "logo": "/logos/vasco.svg", "estadio": "São Januário"},
-    "São Paulo": {"id": 1960, "sigla": "SAO", "logo": "/logos/sao_paulo.svg", "estadio": "Morumbi"},
-    "Santos": {"id": 1961, "sigla": "SAN", "logo": "/logos/santos.svg", "estadio": "Vila Belmiro"},
-    "Vitória": {"id": 1978, "sigla": "VIT", "logo": "/logos/vitoria.svg", "estadio": "Barradão"},
-    "Internacional": {"id": 1967, "sigla": "INT", "logo": "/logos/internacional.svg", "estadio": "Beira-Rio"},
-    "Fortaleza": {"id": 1959, "sigla": "FOR", "logo": "/logos/fortaleza.svg", "estadio": "Castelão"},
-    "Juventude": {"id": 1998, "sigla": "JUV", "logo": "/logos/juventude.svg", "estadio": "Alfredo Jaconi"},
-    "Criciúma": {"id": 1974, "sigla": "CRI", "logo": "/logos/criciuma.svg", "estadio": "Heriberto Hülse"},
-    "Atlético Goianiense": {"id": 5324, "sigla": "ATL-GO", "logo": "/logos/atletico_go.svg", "estadio": "Antônio Accioly"},
-    "Cuiabá": {"id": 15486, "sigla": "CUI", "logo": "/logos/cuiaba.svg", "estadio": "Arena Pantanal"},
-    "Athletico": {"id": 1970, "sigla": "CAP", "logo": "/logos/atletico_pr.svg", "estadio": "Ligga Arena"},
-    
-    # Série B (Completado com sua lista)
-    "Goiás": {"id": 1956, "sigla": "GOI", "logo": "/logos/goias.svg", "estadio": "Serrinha"},
-    "Novorizontino": {"id": 23419, "sigla": "NOV", "logo": "/logos/novorizontino.svg", "estadio": "Dr. Jorge Ismael de Biasi"},
-    "Coritiba": {"id": 1972, "sigla": "CFC", "logo": "/logos/coritiba.svg", "estadio": "Couto Pereira"},
-    "CRB": {"id": 1988, "sigla": "CRB", "logo": "/logos/crb.svg", "estadio": "Estádio Rei Pelé"},
-    "Avaí": {"id": 1973, "sigla": "AVA", "logo": "/logos/avai.svg", "estadio": "Estádio da Ressacada"},
-    "Remo": {"id": 1983, "sigla": "REM", "logo": "/logos/remo.svg", "estadio": "Baenão"},
-    "Chapecoense": {"id": 3488, "sigla": "CHA", "logo": "/logos/chapecoense.svg", "estadio": "Arena Condá"},
-    "América Mineiro": {"id": 1976, "sigla": "AMG", "logo": "/logos/america_mg.svg", "estadio": "Independência"},
-    "Vila Nova FC": {"id": 1989, "sigla": "VIL", "logo": "/logos/vila_nova.svg", "estadio": "Onésio Brasileiro Alvarenga"},
-    "Operário-PR": {"id": 23207, "sigla": "OPE", "logo": "/logos/operario_pr.svg", "estadio": "Germano Krüger"},
-    "Botafogo-SP": {"id": 1994, "sigla": "BOT-SP", "logo": "/logos/botafogo_sp.svg", "estadio": "Santa Cruz"},
-    "Amazonas FC": {"id": 292837, "sigla": "AMA", "logo": "/logos/amazonas.svg", "estadio": "Arena da Amazônia"},
-    "Volta Redonda": {"id": 2007, "sigla": "VOL", "logo": "/logos/volta_redonda.svg", "estadio": "Raulino de Oliveira"},
-    "Paysandu SC": {"id": 1985, "sigla": "PAY", "logo": "/logos/paysandu_sc.svg", "estadio": "Curuzu"},
-    "Athletic Club": {"id": 37402, "sigla": "ATH", "logo": "/logos/athletic_club_mg.svg", "estadio": "Arena Unimed"},
-    "Mirassol": {"id": 3467, "sigla": "MIR", "logo": "/logos/mirassol.svg", "estadio": "José Maria de Campos Maia"},
-    "Ceará": {"id": 1987, "sigla": "CEA", "logo": "/logos/ceara.svg", "estadio": "Castelão"},
-    "Sport Recife": {"id": 1962, "sigla": "SPO", "logo": "/logos/sport.svg", "estadio": "Ilha do Retiro"},
-}
+# --- FUNCIONES AUXILIARES (sin cambios) ---
+def load_team_map(project_root):
+    teams_path = os.path.join(project_root, 'src', 'data', 'teams.json')
+    with open(teams_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
-# Configuração do Selenium
-options = Options()
-options.add_argument('--headless'); options.add_argument('--no-sandbox'); options.add_argument('--disable-dev-shm-usage')
-options.add_argument('user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36')
-service = ChromeService(ChromeDriverManager().install()); driver = webdriver.Chrome(service=service, options=options)
-
-# Caminhos dos arquivos
-script_dir = os.path.dirname(__file__); project_root = os.path.dirname(script_dir)
-partidos_output_path = os.path.join(project_root, 'src', 'data', 'partidos.json')
-tabela_a_output_path = os.path.join(project_root, 'src', 'data', 'tabela-serie-a.json')
-tabela_b_output_path = os.path.join(project_root, 'src', 'data', 'tabela-serie-b.json')
-timestamp_output_path = os.path.join(project_root, 'src', 'data', 'last-update.json')
-
-def get_json_from_url(url):
+def get_json_from_url(driver, url):
     driver.get(url)
-    time.sleep(2)
-    json_text = driver.find_element(By.TAG_NAME, "pre").text
-    return json.loads(json_text)
+    time.sleep(1.5)
+    return json.loads(driver.find_element(By.TAG_NAME, "pre").text)
 
-def update_standings(league_name, league_id, season_id, output_path):
-    print(f"📈 Atualizando tabela da {league_name}...")
+def update_standings(driver, league_id, season_id, team_map):
     URL_API = f"https://api.sofascore.com/api/v1/unique-tournament/{league_id}/season/{season_id}/standings/total"
-    try:
-        driver.get(URL_API)
-        time.sleep(1)
-        json_text = driver.find_element(By.TAG_NAME, "pre").text
-        dados = json.loads(json_text)
+    dados = get_json_from_url(driver, URL_API)
+    if 'error' in dados: return []
+    tabela_rows = dados.get('standings', [{}])[0].get('rows', [])
+    tabela_formatada = []
+    for row in tabela_rows:
+        time_api = row.get('team', {}).get('name', 'N/A')
+        if time_api in team_map:
+            equipe_base = team_map[time_api]
+            equipe_formatada = { "pos": row.get('position', 0), "time": time_api, "display_name": equipe_base.get('display_name') or time_api, "slug": equipe_base['slug'], "logo": equipe_base['logo'], "pts": row.get('points', 0), "v": row.get('wins', 0), "e": row.get('draws', 0), "d": row.get('losses', 0), "gp": row.get('scoresFor', 0), "gc": row.get('scoresAgainst', 0), "sg": row.get('scoresFor', 0) - row.get('scoresAgainst', 0) }
+            tabela_formatada.append(equipe_formatada)
+    return tabela_formatada
 
-        if 'error' in dados:
-            print(f"❌ A API da {league_name} devolveu um erro INESPERADO.")
-            return
+def format_event(evento, team_map):
+    time_casa_api = evento.get('homeTeam', {}).get('name', 'N/A')
+    time_fora_api = evento.get('awayTeam', {}).get('name', 'N/A')
+    if time_casa_api in team_map and time_fora_api in team_map:
+        placar_casa = evento.get('homeScore', {}).get('current', None)
+        placar_fora = evento.get('awayScore', {}).get('current', None)
+        status_obj = evento.get('status', {})
+        status_code = status_obj.get('code', 0)
+        status_desc = status_obj.get('description', 'Agendado')
+        canal = evento.get('tvChannel',{}).get('name', 'Não informado') if evento.get('tvChannel') else 'Não informado'
+        info = status_desc.capitalize()
+        if status_code == 0:
+            timestamp = evento.get('startTimestamp', 0)
+            info = datetime.fromtimestamp(timestamp).strftime('%d/%m %H:%M')
+        return { "campeonato": evento.get('tournament', {}).get('name', 'N/A'), "canal": canal, "timeCasa": team_map[time_casa_api], "timeFora": team_map[time_fora_api], "placarCasa": placar_casa, "placarFora": placar_fora, "info": info }
+    return None
 
-        tabela_rows = dados.get('standings', [{}])[0].get('rows', [])
-        tabela_formatada = []
-        for row in tabela_rows:
-            time_api = row.get('team', {}).get('name', 'N/A')
-            if time_api in TEAM_MAP:
-                equipe = { "pos": row.get('position', 0), "time": time_api, "slug": time_api.lower().replace(' ', '-').replace('é', 'e').replace('ã', 'a').replace('ê', 'e'), "logo": TEAM_MAP[time_api]['logo'], "pts": row.get('points', 0), "v": row.get('wins', 0), "e": row.get('draws', 0), "d": row.get('losses', 0), "gp": 0, "gc": 0, "sg": 0 }
-                tabela_formatada.append(equipe)
-        
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(tabela_formatada, f, ensure_ascii=False, indent=4)
-        print(f"✅ Tabela da {league_name} salva com {len(tabela_formatada)} equipes.")
-    except Exception as e:
-        print(f"❌ Erro ao atualizar a tabela da {league_name}: {e}")
+def update_team_schedules(driver, team_id, team_map):
+    URL_NEXT = f"https://api.sofascore.com/api/v1/team/{team_id}/events/next/0"
+    URL_LAST = f"https://api.sofascore.com/api/v1/team/{team_id}/events/last/0"
+    next_events_data = get_json_from_url(driver, URL_NEXT)
+    last_events_data = get_json_from_url(driver, URL_LAST)
+    proximos_jogos = [p for p in [format_event(e, team_map) for e in next_events_data.get('events', [])] if p]
+    ultimos_resultados = [p for p in [format_event(e, team_map) for e in last_events_data.get('events', [])] if p]
+    return {"proximos_jogos": proximos_jogos[:5], "ultimos_resultados": ultimos_resultados[:5]}
 
+
+# --- FUNCIÓN PRINCIPAL ---
 def main():
-    print("🤖 Iniciando o robô FINAL...")
+    start_time = time.time()
+    options = Options()
+    options.add_argument('--headless'); options.add_argument('--no-sandbox')
+    # --- INICIALIZACIÓN DE UN ÚNICO DRIVER ---
+    service = ChromeService(ChromeDriverManager().install()); driver = webdriver.Chrome(service=service, options=options)
+    
     try:
-        print("➡️  Navegando para www.sofascore.com para obter cookies...")
-        driver.get("https://www.sofascore.com")
-        time.sleep(3)
-        print("✅ Cookies obtidos.")
+        script_dir = os.path.dirname(os.path.abspath(__file__)); project_root = os.path.dirname(script_dir)
+        
+        # Definición de rutas
+        content_dir = os.path.join(project_root, 'src', 'content')
+        teams_output_dir = os.path.join(content_dir, 'teams')
+        standings_output_dir = os.path.join(content_dir, 'standings')
+        os.makedirs(teams_output_dir, exist_ok=True)
+        os.makedirs(standings_output_dir, exist_ok=True)
+        
+        print("🤖 Iniciando o robô v35 (Rápido - IDs Fijos)...")
+        
+        team_map = load_team_map(project_root)
+        print(f"✅ Mapa com {len(team_map)} equipes carregado.")
 
-        # Foco exclusivo em obter as tabelas da API estável
-        update_standings("Série A", 325, 72034, tabela_a_output_path)
-        print("-" * 30)
-        update_standings("Série B", 390, 72603, tabela_b_output_path)
+        # Obtener cookies una sola vez al principio
+        print(" -> Obteniendo cookies de sesión de Sofascore...")
+        driver.get("https://www.sofascore.com"); time.sleep(3)
 
-        # Adicionar o timestamp no final
-        print("-" * 30)
-        print("🕒 Registrando o horário da atualização...")
-        now_utc = datetime.utcnow()
-        now_brasilia = now_utc - timedelta(hours=3)
-        timestamp_str = now_brasilia.strftime('%d/%m/%Y às %H:%M')
-        timestamp_data = {"last_update": f"{timestamp_str} (BRT)"}
-        with open(timestamp_output_path, 'w', encoding='utf-8') as f:
-            json.dump(timestamp_data, f, ensure_ascii=False, indent=4)
-        print(f"✅ Horário da atualização salvo!")
+        # --- TAREA 1: OBTENER TABLAS ---
+        print("\n--- TAREA 1: OBTENIENDO TABLAS DE CLASIFICACIÓN ---")
+        all_teams_map = {}
+        all_leagues_info = [
+            {"name": "Série A", "slug": "serie-a", "id": 325, "season_id": 72034},
+            {"name": "Série B", "slug": "serie-b", "id": 390, "season_id": 72603}
+        ]
+        for league in all_leagues_info:
+            print(f"📈 Atualizando tabela da {league['name']} usando season_id {league['season_id']}...")
+            path = os.path.join(standings_output_dir, f"{league['slug']}.json")
+            tabela_data = update_standings(driver, league['id'], league['season_id'], team_map)
+            
+            with open(path, 'w', encoding='utf-8') as f: json.dump(tabela_data, f, ensure_ascii=False, indent=4)
+            print(f"   -> ✅ Tabela da {league['name']} salva.")
+
+            for team_standings_info in tabela_data:
+                team_name = team_standings_info['time']
+                if team_name in team_map:
+                    team_info_with_league = team_map[team_name].copy()
+                    team_info_with_league['league_slug'] = league['slug']
+                    all_teams_map[team_name] = team_info_with_league
+        
+        print("✅ Tabelas de classificação obtidas.")
+
+        # --- TAREA 2: OBTENER CALENDARIOS ---
+        print("\n--- TAREA 2: OBTENIENDO CALENDARIOS ---")
+        teams_to_process = sorted(all_teams_map.items())
+        total_teams = len(teams_to_process)
+
+        for index, (team_name, team_info) in enumerate(teams_to_process):
+            print(f"[{index+1}/{total_teams}] Processando {team_info['display_name']} (ID: {team_info['id']})...")
+            
+            # Reutilizamos el mismo driver para cada equipo
+            schedule = update_team_schedules(driver, team_info['id'], team_map)
+            
+            team_file_content = {"team_info": team_info, **schedule}
+            
+            # DEBUG: Imprimir para verificar consistencia
+            try:
+                proximo_jogo = team_file_content["proximos_jogos"][0]
+                time_casa = proximo_jogo["timeCasa"]["display_name"]
+                time_fora = proximo_jogo["timeFora"]["display_name"]
+                print(f"   -> ✅ Próximo partido para [{team_info['display_name']}]: {time_casa} vs {time_fora}")
+            except (IndexError, KeyError):
+                print(f"   -> ✅ No se encontraron próximos partidos para [{team_info['display_name']}].")
+
+            team_file_path = os.path.join(teams_output_dir, f"{team_info['slug']}.json")
+            with open(team_file_path, 'w', encoding='utf-8') as f: json.dump(team_file_content, f, ensure_ascii=False, indent=4)
+        
+        print("\n✅ Todos os calendários foram processados.")
+    
     finally:
+        # --- CERRAR EL DRIVER UNA SOLA VEZ AL FINAL ---
         driver.quit()
-        print("✅ Robô finalizado.")
+        end_time = time.time(); duration = end_time - start_time
+        print(f"\n✅ Robô finalizado.")
+        print(f"⏱️  Tempo de execução: {duration:.2f} segundos.")
 
 if __name__ == "__main__":
     main()

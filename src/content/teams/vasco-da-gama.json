@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 1974,
+        "time": "Vasco da Gama",
+        "sigla": "VAS",
+        "display_name": "Vasco da Gama",
+        "slug": "vasco-da-gama",
+        "logo": "/logos/vasco.svg",
+        "estadio": "São Januário",
+        "league_slug": "serie-a"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "timeFora": {
+                "id": 1958,
+                "time": "Botafogo",
+                "sigla": "BOT",
+                "display_name": "Botafogo",
+                "slug": "botafogo",
+                "logo": "/logos/botafogo.svg",
+                "estadio": "Nilton Santos"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "13/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1980,
+                "time": "Juventude",
+                "sigla": "JUV",
+                "display_name": "Juventude",
+                "slug": "juventude",
+                "logo": "/logos/juventude.svg",
+                "estadio": "Alfredo Jaconi"
+            },
+            "timeFora": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "16/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "timeFora": {
+                "id": 5926,
+                "time": "Grêmio",
+                "sigla": "GRE",
+                "display_name": "Grêmio",
+                "slug": "gremio",
+                "logo": "/logos/gremio.svg",
+                "estadio": "Arena do Grêmio"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "19/07 17:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "timeFora": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "23/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "timeFora": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "27/07 18:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Carioca Série A – Taça Guanabara",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "timeFora": {
+                "id": 6982,
+                "time": "Volta Redonda",
+                "sigla": "VOL",
+                "display_name": "Volta Redonda",
+                "slug": "volta-redonda",
+                "logo": "/logos/volta_redonda.svg",
+                "estadio": "Raulino de Oliveira"
+            },
+            "placarCasa": 2,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Carioca Série A – Taça Guanabara",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "timeFora": {
+                "id": 1961,
+                "time": "Fluminense",
+                "sigla": "FLU",
+                "display_name": "Fluminense",
+                "slug": "fluminense",
+                "logo": "/logos/fluminense.svg",
+                "estadio": "Maracanã"
+            },
+            "placarCasa": 1,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Carioca Série A – Taça Guanabara",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 5981,
+                "time": "Flamengo",
+                "sigla": "FLA",
+                "display_name": "Flamengo",
+                "slug": "flamengo",
+                "logo": "/logos/flamengo.svg",
+                "estadio": "Maracanã"
+            },
+            "timeFora": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "placarCasa": 2,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Carioca Série A – Taça Guanabara",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "timeFora": {
+                "id": 1958,
+                "time": "Botafogo",
+                "sigla": "BOT",
+                "display_name": "Botafogo",
+                "slug": "botafogo",
+                "logo": "/logos/botafogo.svg",
+                "estadio": "Nilton Santos"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Carioca Série A – Mata-mata",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "timeFora": {
+                "id": 5981,
+                "time": "Flamengo",
+                "sigla": "FLA",
+                "display_name": "Flamengo",
+                "slug": "flamengo",
+                "logo": "/logos/flamengo.svg",
+                "estadio": "Maracanã"
+            },
+            "placarCasa": 0,
+            "placarFora": 1,
+            "info": "Ended"
+        }
+    ]
+}

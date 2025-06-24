@@ -1,0 +1,14 @@
+{
+    "team_info": {
+        "id": 1970,
+        "time": "Athletico",
+        "sigla": "CAP",
+        "display_name": "Athletico",
+        "slug": "athletico-pr",
+        "logo": "/logos/atletico_pr.svg",
+        "estadio": "Ligga Arena",
+        "league_slug": "serie-b"
+    },
+    "proximos_jogos": [],
+    "ultimos_resultados": []
+}

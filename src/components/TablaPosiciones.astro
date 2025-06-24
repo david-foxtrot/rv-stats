@@ -1,16 +1,7 @@
 ---
 interface Equipo {
-    pos: number;
-    time: string;
-    slug: string;
-    logo: string;
-    pts: number;
-    v: number;
-    e: number;
-    d: number;
-    gp: number;
-    gc: number;
-    sg: number;
+    pos: number; time: string; slug: string; logo: string; pts: number; v: number; e: number; d: number; gp: number; gc: number; sg: number;
+    display_name?: string;
 }
 interface Props {
     title: string;
@@ -19,35 +10,31 @@ interface Props {
 }
 const { title, equipos, leagueType } = Astro.props;
 
-// Função que retorna apenas a cor de fundo para o círculo da posição
 const getCircleBgClass = (position: number, type: 'serie_a' | 'serie_b') => {
     if (type === 'serie_a') {
-        if (position >= 1 && position <= 4) return 'bg-blue-500'; // Libertadores
-        if (position >= 5 && position <= 6) return 'bg-sky-500'; // Pré-Libertadores
-        if (position >= 7 && position <= 12) return 'bg-orange-500'; // Sudamericana
-        if (position >= 17 && position <= 20) return 'bg-red-500'; // Descenso
+        if (position >= 1 && position <= 4) return 'bg-blue-500'; if (position >= 5 && position <= 6) return 'bg-sky-500'; if (position >= 7 && position <= 12) return 'bg-orange-500'; if (position >= 17 && position <= 20) return 'bg-red-500';
     }
     if (type === 'serie_b') {
-        if (position >= 1 && position <= 4) return 'bg-green-500'; // Ascenso
-        if (position >= 17 && position <= 20) return 'bg-red-500'; // Descenso
+        if (position >= 1 && position <= 4) return 'bg-green-500'; if (position >= 17 && position <= 20) return 'bg-red-500';
     }
-    return 'bg-gray-600'; // Zona neutra
+    return 'bg-gray-600';
 };
 ---
 <div class="bg-gray-800/50 rounded-lg p-4">
     <h2 class="text-2xl font-bold text-center mb-6 text-emerald-400">{title}</h2>
     <div class="overflow-x-auto">
         <table class="w-full text-sm text-left">
+            {/* --- CABECERA CON NUEVO ORDEN Y NOMBRES --- */}
             <thead class="text-xs text-gray-400 uppercase border-b border-gray-600">
                 <tr>
                     <th scope="col" class="pl-2 pr-4 py-3" colspan="2">Clube</th>
-                    <th scope="col" class="px-2 py-3 text-center">PJ</th>
+                    <th scope="col" class="px-2 py-3 text-center">Pts</th>
+                    <th scope="col" class="px-2 py-3 text-center">J</th>
                     <th scope="col" class="px-2 py-3 text-center">V</th>
                     <th scope="col" class="px-2 py-3 text-center">E</th>
                     <th scope="col" class="px-2 py-3 text-center">D</th>
-                    <th scope="col" class="px-2 py-3 text-center">Goles</th>
-                    <th scope="col" class="px-2 py-3 text-center">SG</th>
-                    <th scope="col" class="px-4 py-3 text-center">Pts</th>
+                    <th scope="col" class="px-2 py-3 text-center">Saldo</th>
+                    <th scope="col" class="px-2 py-3 text-center">Gols</th>
                 </tr>
             </thead>
             <tbody>
@@ -56,24 +43,36 @@ const getCircleBgClass = (position: number, type: 'serie_a' | 'serie_b') => {
                     const partidosJugados = equipo.v + equipo.e + equipo.d;
                     return (
                         <tr class="border-b border-gray-700">
+                            {/* Columna de Posición (#) */}
                             <td class="pr-2 py-4 text-center font-medium">
                                 <div class={`w-6 h-6 rounded-full flex items-center justify-center mx-auto text-white text-xs font-bold ${circleBgColor}`}>
                                     {equipo.pos}
                                 </div>
                             </td>
+                            {/* Columna de Nombre del Equipo (Time) */}
                             <th scope="row" class="pl-2 pr-4 py-4 font-medium text-gray-100 whitespace-nowrap">
                                 <a href={`/onde-assistir/${equipo.slug}`} class="flex items-center gap-3 hover:opacity-80 transition-opacity">
                                     <img src={equipo.logo} alt={`Logo do ${equipo.time}`} class="w-6 h-6" />
-                                    {equipo.time}
+                                    {equipo.display_name || equipo.time}
                                 </a>
                             </th>
+                            
+                            {/* --- FILA DE DATOS CON NUEVO ORDEN Y ESPACIADO CORREGIDO --- */}
+                            
+                            {/* Pts - Puntos */}
+                            <td class="px-2 py-4 text-center font-bold text-white">{equipo.pts}</td>
+                            {/* J - Partidos Jugados */}
                             <td class="px-2 py-4 text-center">{partidosJugados}</td>
+                            {/* V - Victorias */}
                             <td class="px-2 py-4 text-center">{equipo.v}</td>
+                            {/* E - Empates */}
                             <td class="px-2 py-4 text-center">{equipo.e}</td>
+                            {/* D - Derrotas */}
                             <td class="px-2 py-4 text-center">{equipo.d}</td>
-                            <td class="px-2 py-4 text-center">{`${equipo.gp}:${equipo.gc}`}</td>
+                            {/* Saldo - Saldo de Goles */}
                             <td class="px-2 py-4 text-center">{equipo.sg > 0 ? `+${equipo.sg}` : equipo.sg}</td>
-                            <td class="px-4 py-4 text-center font-bold text-white">{equipo.pts}</td>
+                            {/* Gols - Goles a favor:en contra */}
+                            <td class="px-2 py-4 text-center">{`${equipo.gp}:${equipo.gc}`}</td>
                         </tr>
                     )
                 })}

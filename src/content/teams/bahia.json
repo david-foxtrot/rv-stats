@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 1955,
+        "time": "Bahia",
+        "sigla": "BAH",
+        "display_name": "Bahia",
+        "slug": "bahia",
+        "logo": "/logos/bahia.svg",
+        "estadio": "Arena Fonte Nova",
+        "league_slug": "serie-a"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Copa do Nordeste, Knockout stage",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 2020,
+                "time": "Fortaleza",
+                "sigla": "FOR",
+                "display_name": "Fortaleza",
+                "slug": "fortaleza",
+                "logo": "/logos/fortaleza.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "09/07 21:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 1977,
+                "time": "Atlético Mineiro",
+                "sigla": "CAM",
+                "display_name": "Atlético Mineiro",
+                "slug": "atletico-mineiro",
+                "logo": "/logos/atletico_mg.svg",
+                "estadio": "Arena MRV"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "12/07 21:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "16/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 2020,
+                "time": "Fortaleza",
+                "sigla": "FOR",
+                "display_name": "Fortaleza",
+                "slug": "fortaleza",
+                "logo": "/logos/fortaleza.svg",
+                "estadio": "Castelão"
+            },
+            "timeFora": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "19/07 16:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "timeFora": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "23/07 15:00"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Baiano, Série A – Mata-mata",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 1962,
+                "time": "Vitória",
+                "sigla": "VIT",
+                "display_name": "Vitória",
+                "slug": "vitoria",
+                "logo": "/logos/vitoria.svg",
+                "estadio": "Barradão"
+            },
+            "placarCasa": 2,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Baiano, Série A – Mata-mata",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1962,
+                "time": "Vitória",
+                "sigla": "VIT",
+                "display_name": "Vitória",
+                "slug": "vitoria",
+                "logo": "/logos/vitoria.svg",
+                "estadio": "Barradão"
+            },
+            "timeFora": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Copa do Nordeste, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": 3,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 1957,
+                "time": "Corinthians",
+                "sigla": "COR",
+                "display_name": "Corinthians",
+                "slug": "corinthians",
+                "logo": "/logos/corinthians.svg",
+                "estadio": "Neo Química Arena"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "CONMEBOL Libertadores, Group F",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        }
+    ]
+}

@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 1966,
+        "time": "Internacional",
+        "sigla": "INT",
+        "display_name": "Internacional",
+        "slug": "internacional",
+        "logo": "/logos/internacional.svg",
+        "estadio": "Beira-Rio",
+        "league_slug": "serie-a"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "timeFora": {
+                "id": 1962,
+                "time": "Vitória",
+                "sigla": "VIT",
+                "display_name": "Vitória",
+                "slug": "vitoria",
+                "logo": "/logos/vitoria.svg",
+                "estadio": "Barradão"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "12/07 16:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "16/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "timeFora": {
+                "id": 2001,
+                "time": "Ceará",
+                "sigla": "CEA",
+                "display_name": "Ceará",
+                "slug": "ceara",
+                "logo": "/logos/ceara.svg",
+                "estadio": "Castelão"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "20/07 11:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "timeFora": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "23/07 21:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "timeFora": {
+                "id": 1974,
+                "time": "Vasco da Gama",
+                "sigla": "VAS",
+                "display_name": "Vasco da Gama",
+                "slug": "vasco-da-gama",
+                "logo": "/logos/vasco.svg",
+                "estadio": "São Januário"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "27/07 18:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Gaúcho",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 5926,
+                "time": "Grêmio",
+                "sigla": "GRE",
+                "display_name": "Grêmio",
+                "slug": "gremio",
+                "logo": "/logos/gremio.svg",
+                "estadio": "Arena do Grêmio"
+            },
+            "timeFora": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Gaúcho - Mata-mata",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 5926,
+                "time": "Grêmio",
+                "sigla": "GRE",
+                "display_name": "Grêmio",
+                "slug": "gremio",
+                "logo": "/logos/gremio.svg",
+                "estadio": "Arena do Grêmio"
+            },
+            "timeFora": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "placarCasa": 0,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Gaúcho - Mata-mata",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "timeFora": {
+                "id": 5926,
+                "time": "Grêmio",
+                "sigla": "GRE",
+                "display_name": "Grêmio",
+                "slug": "gremio",
+                "logo": "/logos/gremio.svg",
+                "estadio": "Arena do Grêmio"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 5981,
+                "time": "Flamengo",
+                "sigla": "FLA",
+                "display_name": "Flamengo",
+                "slug": "flamengo",
+                "logo": "/logos/flamengo.svg",
+                "estadio": "Maracanã"
+            },
+            "timeFora": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "CONMEBOL Libertadores, Group F",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1955,
+                "time": "Bahia",
+                "sigla": "BAH",
+                "display_name": "Bahia",
+                "slug": "bahia",
+                "logo": "/logos/bahia.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        }
+    ]
+}

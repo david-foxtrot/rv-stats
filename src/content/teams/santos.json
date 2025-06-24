@@ -1,0 +1,266 @@
+{
+    "team_info": {
+        "id": 1968,
+        "time": "Santos",
+        "sigla": "SAN",
+        "display_name": "Santos",
+        "slug": "santos",
+        "logo": "/logos/santos.svg",
+        "estadio": "Vila Belmiro",
+        "league_slug": "serie-a"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "timeFora": {
+                "id": 1963,
+                "time": "Palmeiras",
+                "sigla": "PAL",
+                "display_name": "Palmeiras",
+                "slug": "palmeiras",
+                "logo": "/logos/palmeiras.svg",
+                "estadio": "Allianz Parque"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "13/07 15:00"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "timeFora": {
+                "id": 5981,
+                "time": "Flamengo",
+                "sigla": "FLA",
+                "display_name": "Flamengo",
+                "slug": "flamengo",
+                "logo": "/logos/flamengo.svg",
+                "estadio": "Maracanã"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "16/07 21:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 21982,
+                "time": "Mirassol",
+                "sigla": "MIR",
+                "display_name": "Mirassol",
+                "slug": "mirassol",
+                "logo": "/logos/mirassol.svg",
+                "estadio": "José Maria de Campos Maia"
+            },
+            "timeFora": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "19/07 18:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "timeFora": {
+                "id": 1966,
+                "time": "Internacional",
+                "sigla": "INT",
+                "display_name": "Internacional",
+                "slug": "internacional",
+                "logo": "/logos/internacional.svg",
+                "estadio": "Beira-Rio"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "23/07 21:30"
+        },
+        {
+            "campeonato": "Brasileirão Betano",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1959,
+                "time": "Sport Recife",
+                "sigla": "SPO",
+                "display_name": "Sport Recife",
+                "slug": "sport-recife",
+                "logo": "/logos/sport.svg",
+                "estadio": "Ilha do Retiro"
+            },
+            "timeFora": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "26/07 18:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Paulista Série A1",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "timeFora": {
+                "id": 21982,
+                "time": "Mirassol",
+                "sigla": "MIR",
+                "display_name": "Mirassol",
+                "slug": "mirassol",
+                "logo": "/logos/mirassol.svg",
+                "estadio": "José Maria de Campos Maia"
+            },
+            "placarCasa": 2,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Paulista Série A1",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "timeFora": {
+                "id": 1963,
+                "time": "Palmeiras",
+                "sigla": "PAL",
+                "display_name": "Palmeiras",
+                "slug": "palmeiras",
+                "logo": "/logos/palmeiras.svg",
+                "estadio": "Allianz Parque"
+            },
+            "placarCasa": 1,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Paulista Série A1",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "timeFora": {
+                "id": 1981,
+                "time": "São Paulo",
+                "sigla": "SAO",
+                "display_name": "São Paulo",
+                "slug": "sao-paulo",
+                "logo": "/logos/sao_paulo.svg",
+                "estadio": "Morumbi"
+            },
+            "placarCasa": 3,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Paulista Série A1",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "timeFora": {
+                "id": 1979,
+                "time": "Botafogo-SP",
+                "sigla": "BOT-SP",
+                "display_name": "Botafogo-SP",
+                "slug": "botafogo-sp",
+                "logo": "/logos/botafogo_sp.svg",
+                "estadio": "Santa Cruz"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Paulista Série A1",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 135514,
+                "time": "Novorizontino",
+                "sigla": "NOV",
+                "display_name": "Novorizontino",
+                "slug": "novorizontino",
+                "logo": "/logos/novorizontino.svg",
+                "estadio": "Dr. Jorge Ismael de Biasi"
+            },
+            "timeFora": {
+                "id": 1968,
+                "time": "Santos",
+                "sigla": "SAN",
+                "display_name": "Santos",
+                "slug": "santos",
+                "logo": "/logos/santos.svg",
+                "estadio": "Vila Belmiro"
+            },
+            "placarCasa": 0,
+            "placarFora": 0,
+            "info": "Ended"
+        }
+    ]
+}

@@ -11,6 +11,31 @@
     },
     "proximos_jogos": [
         {
+            "campeonato": "FIFA Club World Cup, Knockout stage",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1963,
+                "time": "Palmeiras",
+                "sigla": "PAL",
+                "display_name": "Palmeiras",
+                "slug": "palmeiras",
+                "logo": "/logos/palmeiras.svg",
+                "estadio": "Allianz Parque"
+            },
+            "timeFora": {
+                "id": 1958,
+                "time": "Botafogo",
+                "sigla": "BOT",
+                "display_name": "Botafogo",
+                "slug": "botafogo",
+                "logo": "/logos/botafogo.svg",
+                "estadio": "Nilton Santos"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "28/06 13:00"
+        },
+        {
             "campeonato": "Brasileirão Betano",
             "canal": "Não informado",
             "timeCasa": {
@@ -109,31 +134,6 @@
             "placarCasa": null,
             "placarFora": null,
             "info": "23/07 19:00"
-        },
-        {
-            "campeonato": "Brasileirão Betano",
-            "canal": "Não informado",
-            "timeCasa": {
-                "id": 1963,
-                "time": "Palmeiras",
-                "sigla": "PAL",
-                "display_name": "Palmeiras",
-                "slug": "palmeiras",
-                "logo": "/logos/palmeiras.svg",
-                "estadio": "Allianz Parque"
-            },
-            "timeFora": {
-                "id": 5926,
-                "time": "Grêmio",
-                "sigla": "GRE",
-                "display_name": "Grêmio",
-                "slug": "gremio",
-                "logo": "/logos/gremio.svg",
-                "estadio": "Arena do Grêmio"
-            },
-            "placarCasa": null,
-            "placarFora": null,
-            "info": "26/07 21:00"
         }
     ],
     "ultimos_resultados": [

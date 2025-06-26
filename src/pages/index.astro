@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import CardPartido from '../components/CardPartido.astro';
 import partidos from '../data/partidos.json';
-import timestamp from '../data/last-update.json';
+import timestamp from '../../last-update.json';
 
 const partidosSerieA = partidos.filter(p => p.campeonato === "Brasileirão Série A");
 const partidosSerieB = partidos.filter(p => p.campeonato.includes("Brasileirão Série B"));

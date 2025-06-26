@@ -141,31 +141,6 @@
             "campeonato": "Carioca Série A – Taça Guanabara",
             "canal": "Não informado",
             "timeCasa": {
-                "id": 1961,
-                "time": "Fluminense",
-                "sigla": "FLU",
-                "display_name": "Fluminense",
-                "slug": "fluminense",
-                "logo": "/logos/fluminense.svg",
-                "estadio": "Maracanã"
-            },
-            "timeFora": {
-                "id": 5981,
-                "time": "Flamengo",
-                "sigla": "FLA",
-                "display_name": "Flamengo",
-                "slug": "flamengo",
-                "logo": "/logos/flamengo.svg",
-                "estadio": "Maracanã"
-            },
-            "placarCasa": 0,
-            "placarFora": 0,
-            "info": "Ended"
-        },
-        {
-            "campeonato": "Carioca Série A – Taça Guanabara",
-            "canal": "Não informado",
-            "timeCasa": {
                 "id": 5981,
                 "time": "Flamengo",
                 "sigla": "FLA",
@@ -260,6 +235,31 @@
             },
             "placarCasa": 2,
             "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Carioca Série A – Mata-mata",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1961,
+                "time": "Fluminense",
+                "sigla": "FLU",
+                "display_name": "Fluminense",
+                "slug": "fluminense",
+                "logo": "/logos/fluminense.svg",
+                "estadio": "Maracanã"
+            },
+            "timeFora": {
+                "id": 5981,
+                "time": "Flamengo",
+                "sigla": "FLA",
+                "display_name": "Flamengo",
+                "slug": "flamengo",
+                "logo": "/logos/flamengo.svg",
+                "estadio": "Maracanã"
+            },
+            "placarCasa": 1,
+            "placarFora": 2,
             "info": "Ended"
         }
     ]

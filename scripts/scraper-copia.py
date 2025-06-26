@@ -170,14 +170,10 @@ def main():
     
             # --- <<< NUEVA TAREA: GUARDAR TIMESTAMP >>> ---
         print("\n--- TAREA: GUARDANDO TIMESTAMP DE ACTUALIZACIÓN ---")
-        brasilia_tz = pytz.timezone('America/Sao_Paulo')
-        now_brasilia = datetime.now(brasilia_tz)
+        brasilia_tz = pytz.timezone('America/Sao_Paulo'); now_brasilia = datetime.now(brasilia_tz)
         last_update_str = now_brasilia.strftime('%d/%m/%Y %H:%M:%S') + " (Horário de Brasília)"
-        data_to_save = {
-        "last_update": last_update_str
-        }
-        with open('last-update.json', 'w', encoding='utf-8') as f:
-         json.dump(data_to_save, f, ensure_ascii=False, indent=4)
+        timestamp_path = os.path.join(data_dir, 'last-update.json')
+        with open(timestamp_path, 'w', encoding='utf-8') as f: json.dump({"last_update": last_update_str}, f, ensure_ascii=False, indent=4)
         print(f"✅ Timestamp de atualização salvo.")
     
     finally:

@@ -48,6 +48,31 @@
                 "estadio": "Curuzu"
             },
             "timeFora": {
+                "id": 342775,
+                "time": "Athletic Club",
+                "sigla": "ATH",
+                "display_name": "Athletic Club",
+                "slug": "athletic-club",
+                "logo": "/logos/athletic_club_mg.svg",
+                "estadio": "Arena Unimed"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "Postponed"
+        },
+        {
+            "campeonato": "Brasileirão Série B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 1997,
+                "time": "Paysandu SC",
+                "sigla": "PAY",
+                "display_name": "Paysandu SC",
+                "slug": "paysandu-sc",
+                "logo": "/logos/paysandu_sc.svg",
+                "estadio": "Curuzu"
+            },
+            "timeFora": {
                 "id": 35285,
                 "time": "Ferroviária",
                 "sigla": "FER",
@@ -109,31 +134,6 @@
             "placarCasa": null,
             "placarFora": null,
             "info": "12/07 18:30"
-        },
-        {
-            "campeonato": "Brasileirão Série B",
-            "canal": "Não informado",
-            "timeCasa": {
-                "id": 1982,
-                "time": "Coritiba",
-                "sigla": "CFC",
-                "display_name": "Coritiba",
-                "slug": "coritiba",
-                "logo": "/logos/coritiba.svg",
-                "estadio": "Couto Pereira"
-            },
-            "timeFora": {
-                "id": 1997,
-                "time": "Paysandu SC",
-                "sigla": "PAY",
-                "display_name": "Paysandu SC",
-                "slug": "paysandu-sc",
-                "logo": "/logos/paysandu_sc.svg",
-                "estadio": "Curuzu"
-            },
-            "placarCasa": null,
-            "placarFora": null,
-            "info": "19/07 18:30"
         }
     ],
     "ultimos_resultados": [

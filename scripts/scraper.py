@@ -172,7 +172,7 @@ def main():
         print("\n--- TAREA: GUARDANDO TIMESTAMP DE ACTUALIZACIÓN ---")
         brasilia_tz = pytz.timezone('America/Sao_Paulo')
         now_brasilia = datetime.now(brasilia_tz)
-        last_update_str = now_brasilia.strftime('%d/%m/%Y %H:%M:%S') + " (Horário de Brasília)"
+        last_update_str = now_brasilia.strftime('%d/%m/%Y %H:%M:%S') + " (BRT)"
         data_to_save = {
         "last_update": last_update_str
         }

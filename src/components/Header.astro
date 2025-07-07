@@ -1,5 +1,7 @@
 ---
-// src/components/Header.astro
+import { getCollection } from 'astro:content';
+
+const teams = await getCollection('teams');
 ---
 <header class="bg-gray-800/60 backdrop-blur-md sticky top-0 z-30">
     <nav class="container mx-auto px-4 flex justify-between items-center h-16">

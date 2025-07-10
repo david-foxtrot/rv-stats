@@ -127,9 +127,9 @@ const ogImage = new URL(equipo.logo, Astro.site);
             <div class="mt-8">
                 <h2 class="text-xl font-bold mb-4">Estadisticas Actuales</h2>
                 <div class="grid grid-cols-3 sm:grid-cols-6 gap-4 text-center">
-                    <div class="bg-gray-800/50 p-4 rounded-lg"><p class="text-2xl font-bold">{stats.pts}</p><p class="text-xs text-gray-400">Pontos</p></div>
-                    <div class="bg-gray-800/50 p-4 rounded-lg"><p class="text-2xl font-bold">{stats.v + stats.e + stats.d}</p><p class="text-xs text-gray-400">Jogos</p></div>
-                    <div class="bg-gray-800/50 p-4 rounded-lg"><p class="text-2xl font-bold text-green-400">{stats.v}</p><p class="text-xs text-gray-400">Vitórias</p></div>
+                    <div class="bg-gray-800/50 p-4 rounded-lg"><p class="text-2xl font-bold">{stats.pts}</p><p class="text-xs text-gray-400">Puntos</p></div>
+                    <div class="bg-gray-800/50 p-4 rounded-lg"><p class="text-2xl font-bold">{stats.v + stats.e + stats.d}</p><p class="text-xs text-gray-400">Juegos</p></div>
+                    <div class="bg-gray-800/50 p-4 rounded-lg"><p class="text-2xl font-bold text-green-400">{stats.v}</p><p class="text-xs text-gray-400">Victorias</p></div>
                     <div class="bg-gray-800/50 p-4 rounded-lg"><p class="text-2xl font-bold text-yellow-400">{stats.e}</p><p class="text-xs text-gray-400">Empates</p></div>
                     <div class="bg-gray-800/50 p-4 rounded-lg"><p class="text-2xl font-bold text-red-400">{stats.d}</p><p class="text-xs text-gray-400">Derrotas</p></div>
                     <div class="bg-gray-800/50 p-4 rounded-lg"><p class="text-2xl font-bold">{stats.sg > 0 ? `+${stats.sg}` : stats.sg}</p><p class="text-xs text-gray-400">Saldo</p></div>

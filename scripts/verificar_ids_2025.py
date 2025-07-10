@@ -60,12 +60,12 @@ def main():
         # --- IDs de temporada para 2025 (según lo proporcionado) ---
         leagues_urls = [
             {
-                "name": "Brasileirão Série A (Temporada 72034)",
-                "url": "https://api.sofascore.com/api/v1/unique-tournament/325/season/72034/standings/total"
+                "name": "Liga Futve  (Temporada 72034)",
+                "url": "https://api.sofascore.com/api/v1/unique-tournament/231/season/71012/standings/total"
             },
             {
-                "name": "Brasileirão Série B (Temporada 72603)",
-                "url": "https://api.sofascore.com/api/v1/unique-tournament/390/season/72603/standings/total"
+                "name": "Eliminatorias 2026 (Temporada 72603)",
+                "url": "https://api.sofascore.com/api/v1/unique-tournament/295/season/53820/standings/total"
             }
         ]
         

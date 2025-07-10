@@ -1,0 +1,140 @@
+{
+    "team_info": {
+        "id": 4748,
+        "time": "Brazil",
+        "sigla": "BRA",
+        "display_name": "Brazil",
+        "slug": "brazil",
+        "logo": "/logos/brazil.svg",
+        "estadio": "Maracanã",
+        "league_slug": "eliminatorias"
+    },
+    "proximos_jogos": [],
+    "ultimos_resultados": [
+        {
+            "campeonato": "World Cup Qualification, CONMEBOL",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 4748,
+                "time": "Brazil",
+                "sigla": "BRA",
+                "display_name": "Brazil",
+                "slug": "brazil",
+                "logo": "/logos/brazil.svg",
+                "estadio": "Maracanã"
+            },
+            "timeFora": {
+                "id": 4746,
+                "time": "Bolivia",
+                "sigla": "BOL",
+                "display_name": "Bolivia",
+                "slug": "bolivia",
+                "logo": "/logos/bolivia.svg",
+                "estadio": "Estadio Hernando Siles"
+            },
+            "placarCasa": 5,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "World Cup Qualification, CONMEBOL",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 4790,
+                "time": "Peru",
+                "sigla": "PER",
+                "display_name": "Peru",
+                "slug": "peru",
+                "logo": "/logos/peru.svg",
+                "estadio": "Nacional de Lima"
+            },
+            "timeFora": {
+                "id": 4748,
+                "time": "Brazil",
+                "sigla": "BRA",
+                "display_name": "Brazil",
+                "slug": "brazil",
+                "logo": "/logos/brazil.svg",
+                "estadio": "Maracanã"
+            },
+            "placarCasa": 0,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "World Cup Qualification, CONMEBOL",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 4748,
+                "time": "Brazil",
+                "sigla": "BRA",
+                "display_name": "Brazil",
+                "slug": "brazil",
+                "logo": "/logos/brazil.svg",
+                "estadio": "Maracanã"
+            },
+            "timeFora": {
+                "id": 4722,
+                "time": "Venezuela",
+                "sigla": "VEN",
+                "display_name": "Venezuela",
+                "slug": "venezuela",
+                "logo": "/logos/venezuela.svg",
+                "estadio": "Metropolitano de Maturín"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "World Cup Qualification, CONMEBOL",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 4725,
+                "time": "Uruguay",
+                "sigla": "URU",
+                "display_name": "Uruguay",
+                "slug": "uruguay",
+                "logo": "/logos/uruguay.svg",
+                "estadio": "Centenario"
+            },
+            "timeFora": {
+                "id": 4748,
+                "time": "Brazil",
+                "sigla": "BRA",
+                "display_name": "Brazil",
+                "slug": "brazil",
+                "logo": "/logos/brazil.svg",
+                "estadio": "Maracanã"
+            },
+            "placarCasa": 2,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "World Cup Qualification, CONMEBOL",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 4820,
+                "time": "Colombia",
+                "sigla": "COL",
+                "display_name": "Colombia",
+                "slug": "colombia",
+                "logo": "/logos/colombia.svg",
+                "estadio": "Metropolitano de Barranquilla"
+            },
+            "timeFora": {
+                "id": 4748,
+                "time": "Brazil",
+                "sigla": "BRA",
+                "display_name": "Brazil",
+                "slug": "brazil",
+                "logo": "/logos/brazil.svg",
+                "estadio": "Maracanã"
+            },
+            "placarCasa": 2,
+            "placarFora": 1,
+            "info": "Ended"
+        }
+    ]
+}

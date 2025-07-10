@@ -1,0 +1,166 @@
+{
+    "team_info": {
+        "id": 6230,
+        "time": "Caracas F.C.",
+        "sigla": "CAR",
+        "display_name": "Caracas F.C.",
+        "slug": "caracas-fc",
+        "logo": "/logos/caracas.svg",
+        "estadio": "Ligga Arena",
+        "league_slug": "futve"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Primera Division, Clausura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 162480,
+                "time": "Metropolitanos",
+                "sigla": "MET",
+                "display_name": "Metropolitanos",
+                "slug": "metropolitanos",
+                "logo": "/logos/metropolitanos.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 6230,
+                "time": "Caracas F.C.",
+                "sigla": "CAR",
+                "display_name": "Caracas F.C.",
+                "slug": "caracas-fc",
+                "logo": "/logos/caracas.svg",
+                "estadio": "Ligga Arena"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "13/07 18:00"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Primera Division, Clausura, Main Round, Group A",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6230,
+                "time": "Caracas F.C.",
+                "sigla": "CAR",
+                "display_name": "Caracas F.C.",
+                "slug": "caracas-fc",
+                "logo": "/logos/caracas.svg",
+                "estadio": "Ligga Arena"
+            },
+            "timeFora": {
+                "id": 6237,
+                "time": "Zamora",
+                "sigla": "ZAM",
+                "display_name": "Zamora",
+                "slug": "zamora",
+                "logo": "/logos/zamora.svg",
+                "estadio": "Estadio Agustín Tovar"
+            },
+            "placarCasa": 3,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Clausura, Main Round, Group A",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6230,
+                "time": "Caracas F.C.",
+                "sigla": "CAR",
+                "display_name": "Caracas F.C.",
+                "slug": "caracas-fc",
+                "logo": "/logos/caracas.svg",
+                "estadio": "Ligga Arena"
+            },
+            "timeFora": {
+                "id": 6231,
+                "time": "Deportivo Táchira",
+                "sigla": "DTA",
+                "display_name": "Deportivo Táchira",
+                "slug": "deportivo-tachira",
+                "logo": "/logos/deportivo_tachira.svg",
+                "estadio": "Pueblo Nuevo"
+            },
+            "placarCasa": 0,
+            "placarFora": 4,
+            "info": "Abandoned"
+        },
+        {
+            "campeonato": "Primera Division, Clausura, Main Round, Group A",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 386310,
+                "time": "Rayo Zuliano",
+                "sigla": "RAY",
+                "display_name": "Rayo Zuliano",
+                "slug": "rayo-zuliano",
+                "logo": "/logos/rayo_zuliano.svg",
+                "estadio": "Estadio José Encarnación Romero"
+            },
+            "timeFora": {
+                "id": 6230,
+                "time": "Caracas F.C.",
+                "sigla": "CAR",
+                "display_name": "Caracas F.C.",
+                "slug": "caracas-fc",
+                "logo": "/logos/caracas.svg",
+                "estadio": "Ligga Arena"
+            },
+            "placarCasa": 0,
+            "placarFora": 3,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 386310,
+                "time": "Rayo Zuliano",
+                "sigla": "RAY",
+                "display_name": "Rayo Zuliano",
+                "slug": "rayo-zuliano",
+                "logo": "/logos/rayo_zuliano.svg",
+                "estadio": "Estadio José Encarnación Romero"
+            },
+            "timeFora": {
+                "id": 6230,
+                "time": "Caracas F.C.",
+                "sigla": "CAR",
+                "display_name": "Caracas F.C.",
+                "slug": "caracas-fc",
+                "logo": "/logos/caracas.svg",
+                "estadio": "Ligga Arena"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6230,
+                "time": "Caracas F.C.",
+                "sigla": "CAR",
+                "display_name": "Caracas F.C.",
+                "slug": "caracas-fc",
+                "logo": "/logos/caracas.svg",
+                "estadio": "Ligga Arena"
+            },
+            "timeFora": {
+                "id": 162480,
+                "time": "Metropolitanos",
+                "sigla": "MET",
+                "display_name": "Metropolitanos",
+                "slug": "metropolitanos",
+                "logo": "/logos/metropolitanos.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        }
+    ]
+}

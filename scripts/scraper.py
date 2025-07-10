@@ -122,8 +122,8 @@ def main():
         print("\n--- TAREA 1: OBTENIENDO TABLAS DE CLASIFICACIÓN ---")
         all_teams_map = {}
         all_leagues_info = [
-            {"name": "Série A", "slug": "serie-a", "id": 325, "season_id": 72034},
-            {"name": "Série B", "slug": "serie-b", "id": 390, "season_id": 72603}
+            {"name": "FutVe", "slug": "futve", "id": 231, "season_id": 71012},
+            {"name": "Eliminatorias", "slug": "eliminatorias", "id": 295, "season_id": 53820}
         ]
         for league in all_leagues_info:
             print(f"📈 Atualizando tabela da {league['name']} usando season_id {league['season_id']}...")
@@ -170,9 +170,9 @@ def main():
     
             # --- <<< NUEVA TAREA: GUARDAR TIMESTAMP >>> ---
         print("\n--- TAREA: GUARDANDO TIMESTAMP DE ACTUALIZACIÓN ---")
-        brasilia_tz = pytz.timezone('America/Sao_Paulo')
-        now_brasilia = datetime.now(brasilia_tz)
-        last_update_str = now_brasilia.strftime('%d/%m/%Y %H:%M:%S') + " (BRT)"
+        caracas_tz = pytz.timezone('America/Caracas')
+        now_caracas = datetime.now(caracas_tz)
+        last_update_str = now_caracas.strftime('%d/%m/%Y - %I:%M:%S %p') + " (VET)"
         data_to_save = {
         "last_update": last_update_str
         }

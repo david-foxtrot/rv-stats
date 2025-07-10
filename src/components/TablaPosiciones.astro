@@ -6,22 +6,22 @@ interface Equipo {
 interface Props {
     title: string;
     equipos: Equipo[];
-    leagueType: 'serie_a' | 'serie_b';
+    leagueType: 'futve' | 'eliminatorias';
 }
 const { title, equipos, leagueType } = Astro.props;
 
-const getCircleBgClass = (position: number, type: 'serie_a' | 'serie_b') => {
-    if (type === 'serie_a') {
+const getCircleBgClass = (position: number, type: 'futve' | 'eliminatorias') => {
+    if (type === 'futve') {
         if (position >= 1 && position <= 4) return 'bg-blue-500'; if (position >= 5 && position <= 6) return 'bg-sky-500'; if (position >= 7 && position <= 12) return 'bg-orange-500'; if (position >= 17 && position <= 20) return 'bg-red-500';
     }
-    if (type === 'serie_b') {
-        if (position >= 1 && position <= 4) return 'bg-green-500'; if (position >= 17 && position <= 20) return 'bg-red-500';
+    if (type === 'eliminatorias') {
+        if (position >= 1 && position <= 6) return 'bg-green-500'; if (position >= 7 && position <= 7) return 'bg-sky-500';if (position >= 8 && position <= 10) return 'bg-red-500';
     }
     return 'bg-gray-600';
 };
 ---
 <div class="bg-gray-800/50 rounded-lg p-4">
-    <h2 class="text-2xl font-bold text-center mb-6 text-emerald-400">{title}</h2>
+    <h2 class="text-2xl font-bold text-center mb-6 text-stone-100">{title}</h2>
     <div class="overflow-x-auto">
         <table class="w-full text-sm text-left">
             {/* --- CABECERA CON NUEVO ORDEN Y NOMBRES --- */}
@@ -51,7 +51,7 @@ const getCircleBgClass = (position: number, type: 'serie_a' | 'serie_b') => {
                             </td>
                             {/* Columna de Nombre del Equipo (Time) */}
                             <th scope="row" class="pl-2 pr-4 py-4 font-medium text-gray-100 whitespace-nowrap">
-                                <a href={`/onde-assistir/${equipo.slug}`} class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                                <a href={`/equipo/${equipo.slug}`} class="flex items-center gap-3 hover:opacity-80 transition-opacity">
                                     <img src={equipo.logo} alt={`Logo do ${equipo.time}`} class="w-6 h-6" />
                                     {equipo.display_name || equipo.time}
                                 </a>

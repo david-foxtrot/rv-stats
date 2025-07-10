@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import TablaPosiciones from '../../components/TablaPosiciones.astro';
+import equipos from '../../content/standings/futve.json';
+---
+<Layout title="Liga Futve Clausura 2025 | Tabla de posiciones" description="Tabla de posiciones de la Liga Futve Clausura 2025. Actualizada al día con los últimos resultados y estadísticas." image="/og-futve.png">
+    <main class="container mx-auto p-4 max-w-4xl">
+        <TablaPosiciones title="Liga Futve Clausura 2025" equipos={equipos} leagueType="futve" />
+    </main>
+</Layout>

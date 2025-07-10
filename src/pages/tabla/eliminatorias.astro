@@ -1,0 +1,10 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import TablaPosiciones from '../../components/TablaPosiciones.astro';
+import equipos from '../../content/standings/eliminatorias.json';
+---
+<Layout title="Tabla de Eliminatorias Sudamericanas" description="Tabla de posiciones de las Eliminatorias Sudamericanas 2026. Actualizada al día con los últimos resultados y estadísticas." image="/og-eliminatorias.png">
+    <main class="container mx-auto p-4 max-w-4xl">
+        <TablaPosiciones title="Eliminatorias Sudamericanas 2026" equipos={equipos} leagueType="eliminatorias" />
+    </main>
+</Layout>

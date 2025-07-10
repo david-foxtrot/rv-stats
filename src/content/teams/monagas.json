@@ -1,0 +1,166 @@
+{
+    "team_info": {
+        "id": 6233,
+        "time": "Monagas",
+        "sigla": "MON",
+        "display_name": "Monagas",
+        "slug": "monagas",
+        "logo": "/logos/monagas.svg",
+        "estadio": "Estadio Monumental",
+        "league_slug": "futve"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Primera Division, Clausura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6231,
+                "time": "Deportivo Táchira",
+                "sigla": "DTA",
+                "display_name": "Deportivo Táchira",
+                "slug": "deportivo-tachira",
+                "logo": "/logos/deportivo_tachira.svg",
+                "estadio": "Pueblo Nuevo"
+            },
+            "timeFora": {
+                "id": 6233,
+                "time": "Monagas",
+                "sigla": "MON",
+                "display_name": "Monagas",
+                "slug": "monagas",
+                "logo": "/logos/monagas.svg",
+                "estadio": "Estadio Monumental"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "13/07 20:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Primera Division, Clausura, Main Round, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6233,
+                "time": "Monagas",
+                "sigla": "MON",
+                "display_name": "Monagas",
+                "slug": "monagas",
+                "logo": "/logos/monagas.svg",
+                "estadio": "Estadio Monumental"
+            },
+            "timeFora": {
+                "id": 7745,
+                "time": "Estudiantes de Mérida",
+                "sigla": "EM",
+                "display_name": "Estudiantes de Mérida",
+                "slug": "estudiantes-de-merida",
+                "logo": "/logos/estudiantes_de_merida.svg",
+                "estadio": "Estádio da Ressacada"
+            },
+            "placarCasa": 2,
+            "placarFora": 3,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Clausura, Main Round, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "timeFora": {
+                "id": 6233,
+                "time": "Monagas",
+                "sigla": "MON",
+                "display_name": "Monagas",
+                "slug": "monagas",
+                "logo": "/logos/monagas.svg",
+                "estadio": "Estadio Monumental"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Clausura, Main Round, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6233,
+                "time": "Monagas",
+                "sigla": "MON",
+                "display_name": "Monagas",
+                "slug": "monagas",
+                "logo": "/logos/monagas.svg",
+                "estadio": "Estadio Monumental"
+            },
+            "timeFora": {
+                "id": 36437,
+                "time": "Deportivo La Guaira",
+                "sigla": "DLG",
+                "display_name": "Deportivo La Guaira",
+                "slug": "deportivo-la-guaira",
+                "logo": "/logos/la_guaira.svg",
+                "estadio": "Antônio Accioly"
+            },
+            "placarCasa": 0,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6233,
+                "time": "Monagas",
+                "sigla": "MON",
+                "display_name": "Monagas",
+                "slug": "monagas",
+                "logo": "/logos/monagas.svg",
+                "estadio": "Estadio Monumental"
+            },
+            "timeFora": {
+                "id": 36437,
+                "time": "Deportivo La Guaira",
+                "sigla": "DLG",
+                "display_name": "Deportivo La Guaira",
+                "slug": "deportivo-la-guaira",
+                "logo": "/logos/la_guaira.svg",
+                "estadio": "Antônio Accioly"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6233,
+                "time": "Monagas",
+                "sigla": "MON",
+                "display_name": "Monagas",
+                "slug": "monagas",
+                "logo": "/logos/monagas.svg",
+                "estadio": "Estadio Monumental"
+            },
+            "timeFora": {
+                "id": 6231,
+                "time": "Deportivo Táchira",
+                "sigla": "DTA",
+                "display_name": "Deportivo Táchira",
+                "slug": "deportivo-tachira",
+                "logo": "/logos/deportivo_tachira.svg",
+                "estadio": "Pueblo Nuevo"
+            },
+            "placarCasa": 1,
+            "placarFora": 4,
+            "info": "Ended"
+        }
+    ]
+}

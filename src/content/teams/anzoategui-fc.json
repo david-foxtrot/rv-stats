@@ -1,0 +1,166 @@
+{
+    "team_info": {
+        "id": 418693,
+        "time": "Anzoátegui FC",
+        "sigla": "AMA",
+        "display_name": "Anzoátegui FC",
+        "slug": "anzoategui-fc",
+        "logo": "/logos/anzoategui.svg",
+        "estadio": "Arena da Amazônia",
+        "league_slug": "futve"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Primera Division, Clausura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 386310,
+                "time": "Rayo Zuliano",
+                "sigla": "RAY",
+                "display_name": "Rayo Zuliano",
+                "slug": "rayo-zuliano",
+                "logo": "/logos/rayo_zuliano.svg",
+                "estadio": "Estadio José Encarnación Romero"
+            },
+            "timeFora": {
+                "id": 418693,
+                "time": "Anzoátegui FC",
+                "sigla": "AMA",
+                "display_name": "Anzoátegui FC",
+                "slug": "anzoategui-fc",
+                "logo": "/logos/anzoategui.svg",
+                "estadio": "Arena da Amazônia"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "12/07 16:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Copa Venezuela, Group E",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 418693,
+                "time": "Anzoátegui FC",
+                "sigla": "AMA",
+                "display_name": "Anzoátegui FC",
+                "slug": "anzoategui-fc",
+                "logo": "/logos/anzoategui.svg",
+                "estadio": "Arena da Amazônia"
+            },
+            "timeFora": {
+                "id": 249952,
+                "time": "Universidad Central",
+                "sigla": "UCV",
+                "display_name": "Universidad Central",
+                "slug": "universidad-central",
+                "logo": "/logos/ucv.svg",
+                "estadio": "Estadio Olímpico de la UCV"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Copa Venezuela, Group E",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 249952,
+                "time": "Universidad Central",
+                "sigla": "UCV",
+                "display_name": "Universidad Central",
+                "slug": "universidad-central",
+                "logo": "/logos/ucv.svg",
+                "estadio": "Estadio Olímpico de la UCV"
+            },
+            "timeFora": {
+                "id": 418693,
+                "time": "Anzoátegui FC",
+                "sigla": "AMA",
+                "display_name": "Anzoátegui FC",
+                "slug": "anzoategui-fc",
+                "logo": "/logos/anzoategui.svg",
+                "estadio": "Arena da Amazônia"
+            },
+            "placarCasa": 0,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Liga FUTVE 2, Clausura - Grupo Centro-Oriental",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 36435,
+                "time": "Yaracuyanos FC",
+                "sigla": "YFC",
+                "display_name": "Yaracuyanos FC",
+                "slug": "yaracuyanos-fc",
+                "logo": "/logos/yaracuyanos.svg",
+                "estadio": "Estadio Florentino Oropeza"
+            },
+            "timeFora": {
+                "id": 418693,
+                "time": "Anzoátegui FC",
+                "sigla": "AMA",
+                "display_name": "Anzoátegui FC",
+                "slug": "anzoategui-fc",
+                "logo": "/logos/anzoategui.svg",
+                "estadio": "Arena da Amazônia"
+            },
+            "placarCasa": 1,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 249952,
+                "time": "Universidad Central",
+                "sigla": "UCV",
+                "display_name": "Universidad Central",
+                "slug": "universidad-central",
+                "logo": "/logos/ucv.svg",
+                "estadio": "Estadio Olímpico de la UCV"
+            },
+            "timeFora": {
+                "id": 418693,
+                "time": "Anzoátegui FC",
+                "sigla": "AMA",
+                "display_name": "Anzoátegui FC",
+                "slug": "anzoategui-fc",
+                "logo": "/logos/anzoategui.svg",
+                "estadio": "Arena da Amazônia"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 418693,
+                "time": "Anzoátegui FC",
+                "sigla": "AMA",
+                "display_name": "Anzoátegui FC",
+                "slug": "anzoategui-fc",
+                "logo": "/logos/anzoategui.svg",
+                "estadio": "Arena da Amazônia"
+            },
+            "timeFora": {
+                "id": 386310,
+                "time": "Rayo Zuliano",
+                "sigla": "RAY",
+                "display_name": "Rayo Zuliano",
+                "slug": "rayo-zuliano",
+                "logo": "/logos/rayo_zuliano.svg",
+                "estadio": "Estadio José Encarnación Romero"
+            },
+            "placarCasa": 3,
+            "placarFora": 1,
+            "info": "Ended"
+        }
+    ]
+}

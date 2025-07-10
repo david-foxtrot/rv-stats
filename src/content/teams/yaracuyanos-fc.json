@@ -1,0 +1,166 @@
+{
+    "team_info": {
+        "id": 36435,
+        "time": "Yaracuyanos FC",
+        "sigla": "YFC",
+        "display_name": "Yaracuyanos FC",
+        "slug": "yaracuyanos-fc",
+        "logo": "/logos/yaracuyanos.svg",
+        "estadio": "Estadio Florentino Oropeza",
+        "league_slug": "futve"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Primera Division, Clausura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "timeFora": {
+                "id": 36435,
+                "time": "Yaracuyanos FC",
+                "sigla": "YFC",
+                "display_name": "Yaracuyanos FC",
+                "slug": "yaracuyanos-fc",
+                "logo": "/logos/yaracuyanos.svg",
+                "estadio": "Estadio Florentino Oropeza"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "12/07 21:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Copa Venezuela, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "timeFora": {
+                "id": 36435,
+                "time": "Yaracuyanos FC",
+                "sigla": "YFC",
+                "display_name": "Yaracuyanos FC",
+                "slug": "yaracuyanos-fc",
+                "logo": "/logos/yaracuyanos.svg",
+                "estadio": "Estadio Florentino Oropeza"
+            },
+            "placarCasa": 0,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Copa Venezuela",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 36435,
+                "time": "Yaracuyanos FC",
+                "sigla": "YFC",
+                "display_name": "Yaracuyanos FC",
+                "slug": "yaracuyanos-fc",
+                "logo": "/logos/yaracuyanos.svg",
+                "estadio": "Estadio Florentino Oropeza"
+            },
+            "timeFora": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "placarCasa": 0,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Copa Venezuela, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 36435,
+                "time": "Yaracuyanos FC",
+                "sigla": "YFC",
+                "display_name": "Yaracuyanos FC",
+                "slug": "yaracuyanos-fc",
+                "logo": "/logos/yaracuyanos.svg",
+                "estadio": "Estadio Florentino Oropeza"
+            },
+            "timeFora": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "placarCasa": 0,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Copa Venezuela, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 36435,
+                "time": "Yaracuyanos FC",
+                "sigla": "YFC",
+                "display_name": "Yaracuyanos FC",
+                "slug": "yaracuyanos-fc",
+                "logo": "/logos/yaracuyanos.svg",
+                "estadio": "Estadio Florentino Oropeza"
+            },
+            "timeFora": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "placarCasa": 2,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Copa Venezuela, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "timeFora": {
+                "id": 36435,
+                "time": "Yaracuyanos FC",
+                "sigla": "YFC",
+                "display_name": "Yaracuyanos FC",
+                "slug": "yaracuyanos-fc",
+                "logo": "/logos/yaracuyanos.svg",
+                "estadio": "Estadio Florentino Oropeza"
+            },
+            "placarCasa": 3,
+            "placarFora": 0,
+            "info": "Ended"
+        }
+    ]
+}

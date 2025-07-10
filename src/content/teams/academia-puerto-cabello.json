@@ -1,0 +1,166 @@
+{
+    "team_info": {
+        "id": 230725,
+        "time": "Academia Puerto Cabello",
+        "sigla": "AMG",
+        "display_name": "Academia Puerto Cabello",
+        "slug": "academia-puerto-cabello",
+        "logo": "/logos/academia_puerto_cabello.svg",
+        "estadio": "Independência",
+        "league_slug": "futve"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Primera Division, Clausura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "timeFora": {
+                "id": 36435,
+                "time": "Yaracuyanos FC",
+                "sigla": "YFC",
+                "display_name": "Yaracuyanos FC",
+                "slug": "yaracuyanos-fc",
+                "logo": "/logos/yaracuyanos.svg",
+                "estadio": "Estadio Florentino Oropeza"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "12/07 21:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Primera Division, Clausura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 162480,
+                "time": "Metropolitanos",
+                "sigla": "MET",
+                "display_name": "Metropolitanos",
+                "slug": "metropolitanos",
+                "logo": "/logos/metropolitanos.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Clausura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "timeFora": {
+                "id": 249952,
+                "time": "Universidad Central",
+                "sigla": "UCV",
+                "display_name": "Universidad Central",
+                "slug": "universidad-central",
+                "logo": "/logos/ucv.svg",
+                "estadio": "Estadio Olímpico de la UCV"
+            },
+            "placarCasa": 3,
+            "placarFora": 3,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 162480,
+                "time": "Metropolitanos",
+                "sigla": "MET",
+                "display_name": "Metropolitanos",
+                "slug": "metropolitanos",
+                "logo": "/logos/metropolitanos.svg",
+                "estadio": "Arena Fonte Nova"
+            },
+            "timeFora": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "placarCasa": 2,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 36435,
+                "time": "Yaracuyanos FC",
+                "sigla": "YFC",
+                "display_name": "Yaracuyanos FC",
+                "slug": "yaracuyanos-fc",
+                "logo": "/logos/yaracuyanos.svg",
+                "estadio": "Estadio Florentino Oropeza"
+            },
+            "timeFora": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "placarCasa": 0,
+            "placarFora": 3,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "timeFora": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "placarCasa": 1,
+            "placarFora": 3,
+            "info": "Ended"
+        }
+    ]
+}

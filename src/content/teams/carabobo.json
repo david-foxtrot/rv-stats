@@ -1,0 +1,166 @@
+{
+    "team_info": {
+        "id": 6229,
+        "time": "Carabobo",
+        "sigla": "CAR",
+        "display_name": "Carabobo",
+        "slug": "carabobo",
+        "logo": "/logos/carabobo.svg",
+        "estadio": "Arena Unimed",
+        "league_slug": "futve"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Primera Division, Clausura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6234,
+                "time": "Portuguesa FC",
+                "sigla": "POR",
+                "display_name": "Portuguesa FC",
+                "slug": "portuguesa-fc",
+                "logo": "/logos/portuguesa.svg",
+                "estadio": "Estadio José Antonio Anzoátegui"
+            },
+            "timeFora": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "11/07 20:30"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Primera Division, Grand Final",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6231,
+                "time": "Deportivo Táchira",
+                "sigla": "DTA",
+                "display_name": "Deportivo Táchira",
+                "slug": "deportivo-tachira",
+                "logo": "/logos/deportivo_tachira.svg",
+                "estadio": "Pueblo Nuevo"
+            },
+            "timeFora": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "placarCasa": 1,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Grand Final",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "timeFora": {
+                "id": 6231,
+                "time": "Deportivo Táchira",
+                "sigla": "DTA",
+                "display_name": "Deportivo Táchira",
+                "slug": "deportivo-tachira",
+                "logo": "/logos/deportivo_tachira.svg",
+                "estadio": "Pueblo Nuevo"
+            },
+            "placarCasa": 2,
+            "placarFora": 4,
+            "info": "Ap"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 7745,
+                "time": "Estudiantes de Mérida",
+                "sigla": "EM",
+                "display_name": "Estudiantes de Mérida",
+                "slug": "estudiantes-de-merida",
+                "logo": "/logos/estudiantes_de_merida.svg",
+                "estadio": "Estádio da Ressacada"
+            },
+            "timeFora": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "placarCasa": 0,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "timeFora": {
+                "id": 6234,
+                "time": "Portuguesa FC",
+                "sigla": "POR",
+                "display_name": "Portuguesa FC",
+                "slug": "portuguesa-fc",
+                "logo": "/logos/portuguesa.svg",
+                "estadio": "Estadio José Antonio Anzoátegui"
+            },
+            "placarCasa": 0,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Apertura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 230725,
+                "time": "Academia Puerto Cabello",
+                "sigla": "AMG",
+                "display_name": "Academia Puerto Cabello",
+                "slug": "academia-puerto-cabello",
+                "logo": "/logos/academia_puerto_cabello.svg",
+                "estadio": "Independência"
+            },
+            "timeFora": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "placarCasa": 1,
+            "placarFora": 3,
+            "info": "Ended"
+        }
+    ]
+}

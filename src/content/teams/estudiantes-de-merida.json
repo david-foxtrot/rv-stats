@@ -1,0 +1,166 @@
+{
+    "team_info": {
+        "id": 7745,
+        "time": "Estudiantes de Mérida",
+        "sigla": "EM",
+        "display_name": "Estudiantes de Mérida",
+        "slug": "estudiantes-de-merida",
+        "logo": "/logos/estudiantes_de_merida.svg",
+        "estadio": "Estádio da Ressacada",
+        "league_slug": "futve"
+    },
+    "proximos_jogos": [
+        {
+            "campeonato": "Primera Division, Clausura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 7745,
+                "time": "Estudiantes de Mérida",
+                "sigla": "EM",
+                "display_name": "Estudiantes de Mérida",
+                "slug": "estudiantes-de-merida",
+                "logo": "/logos/estudiantes_de_merida.svg",
+                "estadio": "Estádio da Ressacada"
+            },
+            "timeFora": {
+                "id": 6237,
+                "time": "Zamora",
+                "sigla": "ZAM",
+                "display_name": "Zamora",
+                "slug": "zamora",
+                "logo": "/logos/zamora.svg",
+                "estadio": "Estadio Agustín Tovar"
+            },
+            "placarCasa": null,
+            "placarFora": null,
+            "info": "12/07 19:00"
+        }
+    ],
+    "ultimos_resultados": [
+        {
+            "campeonato": "Primera Division, Clausura",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 386310,
+                "time": "Rayo Zuliano",
+                "sigla": "RAY",
+                "display_name": "Rayo Zuliano",
+                "slug": "rayo-zuliano",
+                "logo": "/logos/rayo_zuliano.svg",
+                "estadio": "Estadio José Encarnación Romero"
+            },
+            "timeFora": {
+                "id": 7745,
+                "time": "Estudiantes de Mérida",
+                "sigla": "EM",
+                "display_name": "Estudiantes de Mérida",
+                "slug": "estudiantes-de-merida",
+                "logo": "/logos/estudiantes_de_merida.svg",
+                "estadio": "Estádio da Ressacada"
+            },
+            "placarCasa": 2,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Clausura, Main Round, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6229,
+                "time": "Carabobo",
+                "sigla": "CAR",
+                "display_name": "Carabobo",
+                "slug": "carabobo",
+                "logo": "/logos/carabobo.svg",
+                "estadio": "Arena Unimed"
+            },
+            "timeFora": {
+                "id": 7745,
+                "time": "Estudiantes de Mérida",
+                "sigla": "EM",
+                "display_name": "Estudiantes de Mérida",
+                "slug": "estudiantes-de-merida",
+                "logo": "/logos/estudiantes_de_merida.svg",
+                "estadio": "Estádio da Ressacada"
+            },
+            "placarCasa": 2,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Clausura, Main Round, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 7745,
+                "time": "Estudiantes de Mérida",
+                "sigla": "EM",
+                "display_name": "Estudiantes de Mérida",
+                "slug": "estudiantes-de-merida",
+                "logo": "/logos/estudiantes_de_merida.svg",
+                "estadio": "Estádio da Ressacada"
+            },
+            "timeFora": {
+                "id": 36437,
+                "time": "Deportivo La Guaira",
+                "sigla": "DLG",
+                "display_name": "Deportivo La Guaira",
+                "slug": "deportivo-la-guaira",
+                "logo": "/logos/la_guaira.svg",
+                "estadio": "Antônio Accioly"
+            },
+            "placarCasa": 0,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Clausura, Main Round, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 7745,
+                "time": "Estudiantes de Mérida",
+                "sigla": "EM",
+                "display_name": "Estudiantes de Mérida",
+                "slug": "estudiantes-de-merida",
+                "logo": "/logos/estudiantes_de_merida.svg",
+                "estadio": "Estádio da Ressacada"
+            },
+            "timeFora": {
+                "id": 6233,
+                "time": "Monagas",
+                "sigla": "MON",
+                "display_name": "Monagas",
+                "slug": "monagas",
+                "logo": "/logos/monagas.svg",
+                "estadio": "Estadio Monumental"
+            },
+            "placarCasa": 2,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "Primera Division, Clausura, Main Round, Group B",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 6233,
+                "time": "Monagas",
+                "sigla": "MON",
+                "display_name": "Monagas",
+                "slug": "monagas",
+                "logo": "/logos/monagas.svg",
+                "estadio": "Estadio Monumental"
+            },
+            "timeFora": {
+                "id": 7745,
+                "time": "Estudiantes de Mérida",
+                "sigla": "EM",
+                "display_name": "Estudiantes de Mérida",
+                "slug": "estudiantes-de-merida",
+                "logo": "/logos/estudiantes_de_merida.svg",
+                "estadio": "Estádio da Ressacada"
+            },
+            "placarCasa": 2,
+            "placarFora": 3,
+            "info": "Ended"
+        }
+    ]
+}

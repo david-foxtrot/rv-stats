@@ -1,0 +1,140 @@
+{
+    "team_info": {
+        "id": 4725,
+        "time": "Uruguay",
+        "sigla": "URU",
+        "display_name": "Uruguay",
+        "slug": "uruguay",
+        "logo": "/logos/uruguay.svg",
+        "estadio": "Centenario",
+        "league_slug": "eliminatorias"
+    },
+    "proximos_jogos": [],
+    "ultimos_resultados": [
+        {
+            "campeonato": "World Cup Qualification, CONMEBOL",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 4725,
+                "time": "Uruguay",
+                "sigla": "URU",
+                "display_name": "Uruguay",
+                "slug": "uruguay",
+                "logo": "/logos/uruguay.svg",
+                "estadio": "Centenario"
+            },
+            "timeFora": {
+                "id": 4754,
+                "time": "Chile",
+                "sigla": "CHI",
+                "display_name": "Chile",
+                "slug": "chile",
+                "logo": "/logos/chile.svg",
+                "estadio": "Nacional de Chile"
+            },
+            "placarCasa": 3,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "World Cup Qualification, CONMEBOL",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 4757,
+                "time": "Ecuador",
+                "sigla": "ECU",
+                "display_name": "Ecuador",
+                "slug": "ecuador",
+                "logo": "/logos/ecuador.svg",
+                "estadio": "Maracanã"
+            },
+            "timeFora": {
+                "id": 4725,
+                "time": "Uruguay",
+                "sigla": "URU",
+                "display_name": "Uruguay",
+                "slug": "uruguay",
+                "logo": "/logos/uruguay.svg",
+                "estadio": "Centenario"
+            },
+            "placarCasa": 2,
+            "placarFora": 1,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "World Cup Qualification, CONMEBOL",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 4820,
+                "time": "Colombia",
+                "sigla": "COL",
+                "display_name": "Colombia",
+                "slug": "colombia",
+                "logo": "/logos/colombia.svg",
+                "estadio": "Metropolitano de Barranquilla"
+            },
+            "timeFora": {
+                "id": 4725,
+                "time": "Uruguay",
+                "sigla": "URU",
+                "display_name": "Uruguay",
+                "slug": "uruguay",
+                "logo": "/logos/uruguay.svg",
+                "estadio": "Centenario"
+            },
+            "placarCasa": 2,
+            "placarFora": 2,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "World Cup Qualification, CONMEBOL",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 4725,
+                "time": "Uruguay",
+                "sigla": "URU",
+                "display_name": "Uruguay",
+                "slug": "uruguay",
+                "logo": "/logos/uruguay.svg",
+                "estadio": "Centenario"
+            },
+            "timeFora": {
+                "id": 4748,
+                "time": "Brazil",
+                "sigla": "BRA",
+                "display_name": "Brazil",
+                "slug": "brazil",
+                "logo": "/logos/brazil.svg",
+                "estadio": "Maracanã"
+            },
+            "placarCasa": 2,
+            "placarFora": 0,
+            "info": "Ended"
+        },
+        {
+            "campeonato": "World Cup Qualification, CONMEBOL",
+            "canal": "Não informado",
+            "timeCasa": {
+                "id": 4819,
+                "time": "Argentina",
+                "sigla": "ARG",
+                "display_name": "Argentina",
+                "slug": "argentina",
+                "logo": "/logos/argentina.svg",
+                "estadio": "El Monumental"
+            },
+            "timeFora": {
+                "id": 4725,
+                "time": "Uruguay",
+                "sigla": "URU",
+                "display_name": "Uruguay",
+                "slug": "uruguay",
+                "logo": "/logos/uruguay.svg",
+                "estadio": "Centenario"
+            },
+            "placarCasa": 0,
+            "placarFora": 2,
+            "info": "Ended"
+        }
+    ]
+}

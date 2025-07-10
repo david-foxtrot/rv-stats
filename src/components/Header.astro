@@ -3,16 +3,16 @@ import { getCollection } from 'astro:content';
 
 const teams = await getCollection('teams');
 ---
-<header class="bg-gray-800/60 backdrop-blur-md sticky top-0 z-30">
+<header class="bg-rose-950/60 backdrop-blur-md sticky top-0 z-30">
     <nav class="container mx-auto px-4 flex justify-between items-center h-16">
-        <a href="/" class="text-xl font-bold text-emerald-400 hover:text-emerald-300 transition-colors">
-            GuiaFutebol-BR
+        <a href="/" class="text-xl font-bold text-stone-100 hover:text-emerald-300 transition-colors">
+            Red Vinotinto
         </a>
 
         <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-300">
             <a href="/" class="hover:text-white">Início</a>
-            <a href="/tabela/serie-a" class="hover:text-white">Série A</a>
-            <a href="/tabela/serie-b" class="hover:text-white">Série B</a>
+            <a href="/tabla/futve" class="hover:text-white">Liga Futve</a>
+            <a href="/tabla/eliminatorias" class="hover:text-white">Eliminatorias</a>
         </div>
     </nav>
 </header>
@@ -31,9 +31,9 @@ const teams = await getCollection('teams');
 
 <div id="mobile-menu-panel" class="fixed inset-0 bg-gray-900/80 backdrop-blur-sm hidden z-40 md:hidden">
     <div class="flex flex-col items-center justify-center h-full gap-8 text-2xl font-semibold text-white">
-        <a href="/" class="hover:text-emerald-400">Início</a>
-        <a href="/tabela/serie-a" class="hover:text-emerald-400">Série A</a>
-        <a href="/tabela/serie-b" class="hover:text-emerald-400">Série B</a>
+        <a href="/" class="hover:text-emerald-400">Inicio</a>
+        <a href="/tabla/futve" class="hover:text-emerald-400">Liga Futve</a>
+        <a href="/tabla/eliminatorias" class="hover:text-emerald-400">Eliminatorias</a>
     </div>
 </div>
 

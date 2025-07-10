@@ -7,7 +7,7 @@ import timestamp from '../../last-update.json';
 const partidosSerieA = partidos.filter(p => p.campeonato === "Brasileirão Série A");
 const partidosSerieB = partidos.filter(p => p.campeonato.includes("Brasileirão Série B"));
 ---
-<Layout title="GuiaFutebol-BR | Onde Assistir Futebol Ao Vivo">
+<Layout title="Red Vinotinto | Tabla y resultados del Futve y la Vinotinto" description="La guía del Futve y la Vinotinto. Resultados, estadísticas y dónde ver los partidos en vivo.">
     <main class="container mx-auto p-4 max-w-2xl">
         
         <div class="text-center text-xs text-gray-500 my-8 flex items-center justify-center gap-1">
@@ -17,8 +17,8 @@ const partidosSerieB = partidos.filter(p => p.campeonato.includes("Brasileirão 
 
         {partidos.length === 0 ? (
             <div class="text-center bg-gray-800/50 rounded-lg p-10">
-                <p class="text-xl text-gray-300">Nenhum jogo programado para hoje.</p>
-                <p class="text-gray-400 mt-2">Por favor, volte mais tarde.</p>
+                <p class="text-xl text-gray-300">Ningun partido programado para hoy.</p>
+                <p class="text-gray-400 mt-2">Por favor, vuelve más tarde.</p>
             </div>
         ) : (
             <div class="space-y-12">
